@@ -65,7 +65,7 @@ public class AnalysisOracleSqlScriptToCreateGPTable {
         }
         return listMap;
     }
-    private static String getGPType(String type) {
+    private  String getGPType(String type) {
         type = type.toLowerCase();
         String retType = "";
         switch (type) {

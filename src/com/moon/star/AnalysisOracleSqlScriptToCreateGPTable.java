@@ -27,7 +27,7 @@ public class AnalysisOracleSqlScriptToCreateGPTable {
             //去除空格，制表符，回车等影响因素
             String fileClean = Pattern.compile("\\s").matcher(fileDetail).replaceAll("").toLowerCase();
             //匹配有用的建表语句
-            Matcher m = Pattern.compile("createtable\"\\w+\".\"\\w+\"\\((\"\\w+\"\\w+(\\(\\d+(,)?(\\d+)?([a-z]+)?\\))?(not)?(null)?(,)?)+\\)",Pattern.CASE_INSENSITIVE).matcher(fileClean);
+            Matcher m = Pattern.compile("createtable\"\\w+\".\"\\w+\"\\((\"\\w+\"[a-z0-9\\(\\),'\"_-]+)+\\)").matcher(fileClean);
             String creatTable = "";
             String tableName = "";
             while (m.find()) {
@@ -42,7 +42,8 @@ public class AnalysisOracleSqlScriptToCreateGPTable {
                 Map<String, Object> columnMap = new HashMap<>();
                 columnMap.put("tableName",tableName);
                 //匹配创建列的语句
-                mat = Pattern.compile("\"\\w+\"\\w+(\\(\\d+(,)?(\\d+)?\\))?(?=,)?").matcher(Pattern.compile("(not)?null").matcher(creatTable).replaceAll(""));
+                mat = Pattern.compile("\"\\w+\"((n)?(var)?char(2)?|(long)?text|(tiny|small|medium|big)?int(eger)?|time(stamp)?|date(time)?|(tiny|long)?blob|" +
+                        "decimal|(var)?binary|bit|float|real|double|numeric|year|number|(n)?clob|raw)[0-9,\\(\\)]*").matcher(creatTable);
                 while (mat.find()) {
                     String[] columns = mat.group().split("\"");
                     //判断列类型是否带有长度

@@ -27,7 +27,7 @@ public class AnalysisOracleSqlScriptToCreateGPTable {
             //去除空格，制表符，回车等影响因素
             String fileClean = Pattern.compile("\\s").matcher(fileDetail).replaceAll("").toLowerCase();
             //匹配有用的建表语句
-            Matcher m = Pattern.compile("createtable\"\\w+\".\"\\w+\"\\((\"\\w+\"[a-z0-9\\(\\),'\"_-]+)+\\)").matcher(fileClean);
+            Matcher m = Pattern.compile("createtable\"\\w+\".\"\\w+\"\\((\"\\w+\"[a-z0-9\\u2E80-\\u9FFF\\(\\),'\"_-]+)+\\)").matcher(fileClean);
             String creatTable = "";
             String tableName = "";
             while (m.find()) {

@@ -43,7 +43,7 @@ public class AnalysisOracleSqlScriptToCreateGPTable {
                 columnMap.put("tableName",tableName);
                 //匹配创建列的语句
                 mat = Pattern.compile("\"\\w+\"((n)?(var)?char(2)?|(long)?text|(tiny|small|medium|big)?int(eger)?|time(stamp)?|date(time)?|(tiny|long)?blob|" +
-                        "decimal|(var)?binary|bit|float|real|double|numeric|year|number|(n)?clob|raw)[0-9,\\(\\)]*").matcher(creatTable);
+                        "decimal|(var)?binary|bit|float|real|double|num(eric|ber)|year|(n)?clob|raw)[0-9,\\(\\)]*").matcher(creatTable);
                 while (mat.find()) {
                     String[] columns = mat.group().split("\"");
                     //判断列类型是否带有长度

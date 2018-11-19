@@ -27,22 +27,29 @@ public class AnalysisOracleSqlScriptToCreateGPTable {
             //去除空格，制表符，回车等影响因素
             String fileClean = Pattern.compile("\\s").matcher(fileDetail).replaceAll("").toLowerCase();
             //匹配有用的建表语句
-            Matcher m = Pattern.compile("createtable\"\\w+\".\"\\w+\"\\((\"\\w+\"[a-z0-9\\u2E80-\\u9FFF\\(\\),'\"_-]+)+\\)").matcher(fileClean);
+            Matcher m = Pattern.compile("createtable\"\\w+\"(.\"\\w+\")?\\((\"\\w+\"[a-z0-9\\u2E80-\\u9FFF\\(\\),'\"_-]+)+\\)").matcher(fileClean);
             String creatTable = "";
             String tableName = "";
             while (m.find()) {
                 //去除char|byte
                 creatTable = Pattern.compile("(?<=\\d)(char|byte)(?=\\))").matcher(m.group()).replaceAll("");
                 //匹配表名
-                Matcher mat = Pattern.compile("\\.\"\\w+\"").matcher(creatTable);
-                if (mat.find()) {
-                    tableName = mat.group().substring(2, mat.group().length() - 1);
-                }else continue;
+                if(creatTable.contains(".")) {
+                    Matcher ma = Pattern.compile("\\.\"\\w+\"").matcher(creatTable);
+                    if (ma.find()) {
+                        tableName = ma.group().substring(2, ma.group().length() - 1);
+                    } else continue;
+                }else {
+                    Matcher ma = Pattern.compile("(?<=createtable)\"\\w+\"").matcher(creatTable);
+                    if (ma.find()) {
+                        tableName = ma.group().substring(1, ma.group().length() - 1);
+                    } else continue;
+                }
 //                System.out.println(tableName);
                 Map<String, Object> columnMap = new HashMap<>();
                 columnMap.put("tableName",tableName);
                 //匹配创建列的语句
-                mat = Pattern.compile("\"\\w+\"((n)?(var)?char(2)?|(long)?text|(tiny|small|medium|big)?int(eger)?|time(stamp)?|date(time)?|(tiny|long)?blob|" +
+                Matcher mat = Pattern.compile("\"\\w+\"((n)?(var)?char(2)?|(long)?text|(tiny|small|medium|big)?int(eger)?|time(stamp)?|date(time)?|(tiny|long)?blob|" +
                         "decimal|(var)?binary|bit|float|real|double|num(eric|ber)|year|(n)?clob|raw)(\\(\\d+(,)?(\\d+)?\\))?(?=,)?").matcher(creatTable);
                 while (mat.find()) {
                     String[] columns = mat.group().split("\"");

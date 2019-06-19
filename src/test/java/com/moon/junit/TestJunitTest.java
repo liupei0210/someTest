@@ -1,12 +1,13 @@
 package com.moon.junit;
 
+import org.junit.Test;
+
 import static org.junit.Assert.*;
 
 public class TestJunitTest {
 
-    @org.junit.Test
+    @Test
     public void sayHello() {
         System.out.println("Hello World!");
     }
-
 }

@@ -54,3 +54,8 @@ FATAL main com.moon.jsch.TestSftp -
 FATAL main com.moon.jsch.TestSftp - 致命信息
 FATAL main com.moon.jsch.TestSftp - 致命信息
 FATAL main com.moon.jsch.TestSftp - 致命信息
+INFO main com.moon.jsch.TestSftp - There has an identity
+INFO main com.moon.jsch.TestSftp - session connected.
+INFO main com.moon.jsch.TestSftp - session connected.
+INFO main com.moon.jsch.TestSftp - session connected.
+INFO main com.moon.jsch.TestSftp - session connected.

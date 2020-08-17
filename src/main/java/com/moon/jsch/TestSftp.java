@@ -5,6 +5,8 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 
 
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.Properties;
 
 public class TestSftp {
@@ -15,13 +17,21 @@ public class TestSftp {
         Session session;
         {
             try {
-                session = jsch.getSession("root", "172.18.195.214");
-                session.setPassword("jufeng2010");
+                MyUserInfo myUserInfo=new MyUserInfo("root","172.18.195.214",22);
+                myUserInfo.setPassword("jufeng2010");
+                if(Files.exists(Paths.get(myUserInfo.getIdentity()))){
+                    log.info("There has an identity");
+                    jsch.addIdentity(myUserInfo.getIdentity(),myUserInfo.getPassphrase());
+                }
+                session = jsch.getSession(myUserInfo.getUser(),myUserInfo.getHost());
+                session.setUserInfo(myUserInfo);
+//                session.setPassword("jufeng2010");
                 session.setConfig("StrictHostKeyChecking", "no");
                 Properties config = new Properties();
                 config.put("userauth.gssapi-with-mic", "no");// SSH连接慢的问题
                 session.setConfig(config);
-                session.connect();
+                session.connect(3000);
+                log.info("session connected.");
                 Channel channel = session.openChannel("sftp");
                 try {
                     channel.connect();

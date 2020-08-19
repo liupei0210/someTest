@@ -1,6 +1,7 @@
 package com.moon.jsch;
 
 import com.jcraft.jsch.*;
+import com.moon.jsch.sunsheen.sms.sysbackup.MyUserInfo;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 
@@ -15,10 +16,9 @@ public class TestSftp {
         log.setLevel(Level.INFO);
         JSch jsch = new JSch();
         Session session;
-        {
             try {
-                MyUserInfo myUserInfo=new MyUserInfo("root","172.18.195.214",22);
-                myUserInfo.setPassword("jufeng2010");
+                MyUserInfo myUserInfo=new MyUserInfo("test","172.18.194.117",22);
+                myUserInfo.setPassword("test");
                 if(Files.exists(Paths.get(myUserInfo.getIdentity()))){
                     log.info("There has an identity");
                     jsch.addIdentity(myUserInfo.getIdentity(),myUserInfo.getPassphrase());
@@ -35,7 +35,7 @@ public class TestSftp {
                 Channel channel = session.openChannel("sftp");
                 try {
                     channel.connect();
-                    ((ChannelSftp) channel).get("/root/test/test.txt", "/home/liupei/liupei/test/test.txt");
+                    ((ChannelSftp) channel).get( "/etc/passwd","/home/liupei/liupei/test/passwd/");
                     ((ChannelSftp) channel).quit();
                     System.out.println(channel.getExitStatus());
                 } catch (SftpException e) {
@@ -46,6 +46,5 @@ public class TestSftp {
             } catch (JSchException e) {
                 e.printStackTrace();
             }
-        }
     }
 }

@@ -59,3 +59,14 @@ INFO main com.moon.jsch.TestSftp - session connected.
 INFO main com.moon.jsch.TestSftp - session connected.
 INFO main com.moon.jsch.TestSftp - session connected.
 INFO main com.moon.jsch.TestSftp - session connected.
+INFO main com.moon.jsch.TestSftp - session connected.
+FATAL main com.moon.jsch.TestSftp - 致命信息
+INFO main com.moon.jsch.TestSftp - session connected.
+INFO main com.moon.jsch.TestSftp - session connected.
+INFO main com.moon.jsch.TestSftp - session connected.
+INFO main com.moon.jsch.TestSftp - session connected.
+INFO main com.moon.jsch.TestSftp - session connected.
+INFO main com.moon.jsch.TestSftp - session connected.
+INFO main com.moon.jsch.TestSftp - session connected.
+FATAL main com.moon.jsch.TestSftp - 致命信息
+INFO main com.moon.jsch.TestSftp - session connected.

@@ -11,43 +11,47 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
-
+/*
+*@author lp
+*ssh连接服务器执行命令操作或文件传输
+*在调用了createSession完成相关操作后,要记得调用closeSession关闭连接.
+*
+* */
 public class SshUtils {
     public static final String SFTP_GET = "get";
     public static final String SFTP_PUT= "put";
-    public static final int TIME_OUT=3*1000;
-    Logger log = Logger.getLogger(TestSftp.class);
+    public static final int TIME_OUT=20*1000;
+    private final Logger log = Logger.getLogger(TestSftp.class);
     private Session session=null;
-    public Session getSession(MyUserInfo user) {
-        log.setLevel(Level.INFO);
+    public void createSession(MyUserInfo user) {
         JSch jsch = new JSch();
         try {
             session = jsch.getSession(user.getUser(), user.getHost());
             session.setUserInfo(user);
             session.setConfig("StrictHostKeyChecking", "no");
-            log.info("Create jsch session successfully.");
+//            session.setConfig("userauth.gssapi-with-mic", "no");
+            log.info("Create jsch session successfully. "+user.getHost());
         } catch (JSchException e) {
             e.printStackTrace();
-            log.error("Create jsch session error!");
+            log.error("Create jsch session error! "+user.getHost());
         }
-        return session;
     }
 
     private Channel getChannel( String type) {
         Channel channel = null;
         try {
-            session.connect(TIME_OUT);
+            if(!session.isConnected())session.connect(TIME_OUT);
             channel = session.openChannel(type);
-            log.info("Create jsch channel successfully.");
+            log.info("Create jsch channel "+type+" successfully.");
             return type.equals("exec") ? (ChannelExec) channel : (ChannelSftp) channel;
         } catch (JSchException e) {
             e.printStackTrace();
-            log.error("Create jsch channel error!");
+            log.error("Create jsch channel "+type+" error!");
             return null;
         }
     }
 
-    public List<String> Exec(String command) {
+    public List<String> exec(String command) {
         ChannelExec channelExec = (ChannelExec) getChannel("exec");
         assert channelExec != null;
         channelExec.setCommand(command);
@@ -63,13 +67,16 @@ public class SshUtils {
                 results.add(line);
             }
             channelExec.disconnect();
+            //results 第0个数据存储的是命令执行返回码
             results.add(0,String.valueOf(channelExec.getExitStatus()));
+            log.info("Channel is opened.");
         } catch (IOException | JSchException e) {
+            log.error("Channel is not opened!");
             e.printStackTrace();
         }
         return results;
     }
-    public void Sftp(String src,String dst,String sftp_type){
+    public void sftp(String src,String dst,String sftp_type){
         ChannelSftp channelSftp=(ChannelSftp) getChannel("sftp");
         try {
             assert channelSftp != null;
@@ -85,6 +92,9 @@ public class SshUtils {
         }
     }
     public void closeSession(){
-        if(session.isConnected()) session.disconnect();
+        if(session.isConnected()) {
+            session.disconnect();
+            log.info("Session is closed. "+session.getHost());
+        }
     }
 }

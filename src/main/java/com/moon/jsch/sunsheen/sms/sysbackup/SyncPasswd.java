@@ -5,6 +5,7 @@ import org.apache.log4j.Logger;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -19,6 +20,7 @@ public class SyncPasswd {
     private final StringBuffer userDel = new StringBuffer();
     private final MyUserInfo userPrimary;
     private final MyUserInfo userBackup;
+    private boolean isChange=false;
 
     public SyncPasswd(MyUserInfo userPrimary, MyUserInfo userBackup) {
         this.userPrimary = userPrimary;
@@ -26,17 +28,43 @@ public class SyncPasswd {
     }
 
     public Map<String, String> start() {
-        copyFile();
-        sortFileContent();
-        diffAndParseGroup();
-        diffAndParsePasswd();
-        script.append(groupAdd).append(groupChg).append(userAdd).append(userChg).append(userDel).append(groupDel).append("exit 0");
-        System.out.println(script);
-        return null;
+        Map<String, String> ret = new HashMap<>();
+        if (copyFile()) {
+            log.info("拷贝文件完成.");
+            if (sortFileContent()) {
+                log.info("文件内容排序完成.");
+                if (diffAndParseGroup()) {
+                    log.info("比对group文件完成.");
+                    if (diffAndParsePasswd()) {
+                        ret.put("retCode", "1");
+                        ret.put("retMsg", "比对passwd文件成功.");
+                        log.info("比对passwd文件成功.");
+                    } else {
+                        ret.put("retCode", "0");
+                        ret.put("retMsg", "比对passwd文件时出现错误!");
+                        log.error("比对passwd文件时出现错误!");
+                    }
+                } else {
+                    ret.put("retCode", "0");
+                    ret.put("retMsg", "比对group文件时出现错误!");
+                    log.error("比对group文件时出现错误!");
+                }
+            } else {
+                ret.put("retCode", "0");
+                ret.put("retMsg", "文件内容排序时出现错误!");
+                log.error("文件内容排序时出现错误!");
+            }
+        } else {
+            ret.put("retCode", "0");
+            ret.put("retMsg", "拷贝文件时出现错误!");
+            log.error("拷贝文件时出现错误!");
+        }
+        generateScript();
+        return ret;
     }
 
     //去主中心和备份中心拷贝group,passwd文件
-    private void copyFile() {
+    private boolean copyFile() {
         SshUtils ssh = new SshUtils();
         ssh.createSession(userPrimary);
         try {
@@ -60,10 +88,16 @@ public class SyncPasswd {
         ssh.sftp("/etc/group", "~/liupei/test/sms/passwd/group_b", SshUtils.SFTP_GET);
         ssh.sftp("/etc/passwd", "~/liupei/test/sms/passwd/passwd_b", SshUtils.SFTP_GET);
         ssh.closeSession();
+        try {
+            return Files.walk(Paths.get("~/liupei/test/sms/passwd/")).filter(Files::isRegularFile).collect(Collectors.toSet()).size() == 4;
+        } catch (IOException e) {
+            e.printStackTrace();
+            return false;
+        }
     }
 
     //对文件内容进行排序
-    private void sortFileContent() {
+    private boolean sortFileContent() {
         try {
             Files.walk(Paths.get("~/liupei/test/sms/passwd/")).filter(Files::isRegularFile).collect(Collectors.toSet()).forEach(x -> {
                 try {
@@ -76,11 +110,13 @@ public class SyncPasswd {
             });
         } catch (IOException e) {
             e.printStackTrace();
+            return false;
         }
+        return true;
     }
 
     //对比group文件并根据结果生成脚本命令
-    private void diffAndParseGroup() {
+    private boolean diffAndParseGroup() {
         MyUserInfo myself = new MyUserInfo();
         myself.setUser("liupei");
         myself.setPassword("liupei0210");
@@ -88,11 +124,12 @@ public class SyncPasswd {
         ssh.createSession(myself);
         List<String> results = ssh.exec("diff /home/liupei/IdeaProjects/someTest/~/liupei/test/sms/passwd/group_b /home/liupei/IdeaProjects/someTest/~/liupei/test/sms/passwd/group_p");
         ssh.closeSession();
-        results.forEach(System.out::println);
+//        results.forEach(System.out::println);
         int exitStatus = Integer.parseInt(results.get(0));
         if (exitStatus == 0) {
             log.info("No difference was found in the comparison results. SyncPasswd:diffAndParseGroup()");
         } else if (exitStatus == 1) {
+            isChange=true;
             results.remove(0);
             int i = 0;
             String[] splitLine;
@@ -110,12 +147,12 @@ public class SyncPasswd {
                             int ii = i + 1;
                             for (; ii <= i + length; ii++) {
                                 fields = results.get(ii).substring(2).split(":");
-                                groupAdd.append("groupadd -fo -g " + fields[2] + " " + fields[0] + "\n");
+                                groupAdd.append("groupadd -fo -g ").append(fields[2]).append(" ").append(fields[0]).append("\n");
                             }
                             i = ii;
                         } else {
                             fields = results.get(i + 1).substring(2).split(":");
-                            groupAdd.append("groupadd -fo -g " + fields[2] + " " + fields[0] + "\n");
+                            groupAdd.append("groupadd -fo -g ").append(fields[2]).append(" ").append(fields[0]).append("\n");
                             i += 1 + 1;
                         }
                         break;
@@ -128,12 +165,12 @@ public class SyncPasswd {
                             int ii = i + 1;
                             for (; ii <= i + length; ii++) {
                                 fields = results.get(ii).substring(2).split(":");
-                                groupDel.append("groupdel " + fields[0] + "\n");
+                                groupDel.append("groupdel ").append(fields[0]).append("\n");
                             }
                             i = ii;
                         } else {
                             fields = results.get(i + 1).substring(2).split(":");
-                            groupDel.append("groupdel " + fields[0] + "\n");
+                            groupDel.append("groupdel ").append(fields[0]).append("\n");
                             i += 1 + 1;
                         }
                         break;
@@ -155,19 +192,14 @@ public class SyncPasswd {
                             for (int iii = 0; iii < rearList.size(); iii++) {
                                 if (rearList.get(iii)[0].equals(frontList.get(0)[0])) {
                                     if (!rearList.get(iii)[2].equals(frontList.get(0)[2])) {
-                                        groupChg.append("groupmod -o -g " + rearList.get(iii)[2] + " " + frontList.get(0)[0] + "\n");
+                                        groupChg.append("groupmod -o -g ").append(rearList.get(iii)[2]).append(" ").append(frontList.get(0)[0]).append("\n");
                                     }
                                     frontList.remove(0);
                                     rearList.remove(iii);
                                     break;
                                 }
                             }
-                            frontList.forEach(x -> {
-                                groupDel.append("groupdel " + x[0] + "\n");
-                            });
-                            rearList.forEach(x -> {
-                                groupAdd.append("groupadd -fo -g " + x[2] + " " + x[0] + "\n");
-                            });
+                            generateCommand(frontList, rearList, "group");
                         } else if (front.contains(",") && rear.contains(",")) {
                             String[] frontSplit = front.split(",");
                             String[] rearSplit = rear.split(",");
@@ -189,7 +221,7 @@ public class SyncPasswd {
                                 for (int iiii = 0; iiii < rearList.size(); iiii++) {
                                     if (frontList.get(iii)[0].equals(rearList.get(iiii)[0])) {
                                         if (!frontList.get(iii)[2].equals(rearList.get(iiii)[2])) {
-                                            groupChg.append("groupmod -o -g " + rearList.get(iiii)[2] + " " + frontList.get(iii)[0] + "\n");
+                                            groupChg.append("groupmod -o -g ").append(rearList.get(iiii)[2]).append(" ").append(frontList.get(iii)[0]).append("\n");
                                         }
                                         frontList.remove(iii);
                                         rearList.remove(iiii);
@@ -198,12 +230,7 @@ public class SyncPasswd {
                                     }
                                 }
                             }
-                            frontList.forEach(x -> {
-                                groupDel.append("groupdel " + x[0] + "\n");
-                            });
-                            rearList.forEach(x -> {
-                                groupAdd.append("groupadd -fo -g " + x[2] + " " + x[0] + "\n");
-                            });
+                            generateCommand(frontList, rearList, "group");
                         } else if (front.contains(",") && !rear.contains(",")) {
                             String[] frontSplit = front.split(",");
                             List<String[]> frontList = new ArrayList<>();
@@ -219,40 +246,40 @@ public class SyncPasswd {
                             for (int iii = 0; iii < frontList.size(); iii++) {
                                 if (frontList.get(iii)[0].equals(rearList.get(0)[0])) {
                                     if (!frontList.get(iii)[2].equals(rearList.get(0)[2])) {
-                                        groupChg.append("groupmod -o -g " + rearList.get(0)[2] + " " + frontList.get(iii)[0] + "\n");
+                                        groupChg.append("groupmod -o -g ").append(rearList.get(0)[2]).append(" ").append(frontList.get(iii)[0]).append("\n");
                                     }
                                     frontList.remove(iii);
                                     rearList.remove(0);
                                     break;
                                 }
                             }
-                            frontList.forEach(x -> {
-                                groupDel.append("groupdel " + x[0] + "\n");
-                            });
-                            rearList.forEach(x -> {
-                                groupAdd.append("groupadd -fo -g " + x[2] + " " + x[0] + "\n");
-                            });
+                            generateCommand(frontList, rearList, "group");
                         } else {
                             String[] fields_b = results.get(i + 1).substring(2).split(":");
                             String[] fields_p = results.get(i + 3).substring(2).split(":");
                             if (!fields_b[0].equals(fields_p[0]) && fields_b[2].equals(fields_p[2])) {
-                                groupChg.append("groupmod -n " + fields_p[0] + " " + fields_b[0] + "\n");
+                                groupChg.append("groupmod -n ").append(fields_p[0]).append(" ").append(fields_b[0]).append("\n");
                             } else if (fields_b[0].equals(fields_p[0]) && !fields_b[2].equals(fields_p[2])) {
-                                groupChg.append("groupmod -o -g " + fields_p[2] + " " + fields_b[0] + "\n");
+                                groupChg.append("groupmod -o -g ").append(fields_p[2]).append(" ").append(fields_b[0]).append("\n");
                             } else if (!fields_b[0].equals(fields_p[0]))
-                                groupChg.append("groupmod -o -g " + fields_p[2] + " -n " + fields_p[0] + " " + fields_b[0] + "\n");
+                                groupChg.append("groupmod -o -g ").append(fields_p[2]).append(" -n ").append(fields_p[0]).append(" ").append(fields_b[0]).append("\n");
                             i += 1 + 3;
                         }
                         break;
                     default:
                         log.error("Error!");
+                        return false;
                 }
             }
-        } else log.error("This comparison is wrong! SyncPasswd:diffAndParseGroup()");
+        } else {
+            log.error("This comparison is wrong! SyncPasswd:diffAndParseGroup()");
+            return false;
+        }
+        return true;
     }
 
     //对比passwd文件并根据结果生成脚本命令
-    private void diffAndParsePasswd() {
+    private boolean diffAndParsePasswd() {
         MyUserInfo myself = new MyUserInfo();
         myself.setUser("liupei");
         myself.setPassword("liupei0210");
@@ -260,11 +287,12 @@ public class SyncPasswd {
         ssh.createSession(myself);
         List<String> results = ssh.exec("diff /home/liupei/IdeaProjects/someTest/~/liupei/test/sms/passwd/passwd_b /home/liupei/IdeaProjects/someTest/~/liupei/test/sms/passwd/passwd_p");
         ssh.closeSession();
-        results.forEach(System.out::println);
+//        results.forEach(System.out::println);
         int exitStatus = Integer.parseInt(results.get(0));
         if (exitStatus == 0) {
             log.info("No difference was found in the comparison results. SyncPasswd:diffAndParsePasswd()");
         } else if (exitStatus == 1) {
+            isChange=true;
             results.remove(0);
             int i = 0;
             String[] splitLine;
@@ -282,12 +310,12 @@ public class SyncPasswd {
                             int ii = i + 1;
                             for (; ii <= i + length; ii++) {
                                 fields = results.get(ii).substring(2).split(":");
-                                userAdd.append("useradd -o -u " + fields[2] + " -d " + fields[5] + " -s " + fields[6] + " -g " + fields[3] + " -c \"" + fields[4] + "\" " + fields[0] + "\n");
+                                userAdd.append("useradd -o -u ").append(fields[2]).append(" -d ").append(fields[5]).append(" -s ").append(fields[6]).append(" -g ").append(fields[3]).append(" -c \"").append(fields[4]).append("\" ").append(fields[0]).append("\n");
                             }
                             i = ii;
                         } else {
                             fields = results.get(i + 1).substring(2).split(":");
-                            userAdd.append("useradd -o -u " + fields[2] + " -d " + fields[5] + " -s " + fields[6] + " -g " + fields[3] + " -c \"" + fields[4] + "\" " + fields[0] + "\n");
+                            userAdd.append("useradd -o -u ").append(fields[2]).append(" -d ").append(fields[5]).append(" -s ").append(fields[6]).append(" -g ").append(fields[3]).append(" -c \"").append(fields[4]).append("\" ").append(fields[0]).append("\n");
                             i += 1 + 1;
                         }
                         break;
@@ -300,12 +328,12 @@ public class SyncPasswd {
                             int ii = i + 1;
                             for (; ii <= i + length; ii++) {
                                 fields = results.get(ii).substring(2).split(":");
-                                userDel.append("userdel -r " + fields[0] + "\n");
+                                userDel.append("userdel -r ").append(fields[0]).append("\n");
                             }
                             i = ii;
                         } else {
                             fields = results.get(i + 1).substring(2).split(":");
-                            userDel.append("userdel -r " + fields[0] + "\n");
+                            userDel.append("userdel -r ").append(fields[0]).append("\n");
                             i += 1 + 1;
                         }
                         break;
@@ -326,18 +354,13 @@ public class SyncPasswd {
                             i = ii;
                             for (int iii = 0; iii < rearList.size(); iii++) {
                                 if (rearList.get(iii)[0].equals(frontList.get(0)[0])) {
-                                    userChg.append("usermod -o -u " + rearList.get(iii)[2] + " -d " + rearList.get(iii)[5] + " -s " + rearList.get(iii)[6] + " -g " + rearList.get(iii)[3] + " -c \"" + rearList.get(iii)[4] + "\" " + rearList.get(iii)[0] + "\n");
+                                    userChg.append("usermod -o -u ").append(rearList.get(iii)[2]).append(" -d ").append(rearList.get(iii)[5]).append(" -s ").append(rearList.get(iii)[6]).append(" -g ").append(rearList.get(iii)[3]).append(" -c \"").append(rearList.get(iii)[4]).append("\" ").append(rearList.get(iii)[0]).append("\n");
                                     frontList.remove(0);
                                     rearList.remove(iii);
                                     break;
                                 }
                             }
-                            frontList.forEach(x -> {
-                                userDel.append("userdel -r " + x[0] + "\n");
-                            });
-                            rearList.forEach(x -> {
-                                userAdd.append("useradd -o -u " + x[2] + " -d " + x[5] + " -s " + x[6] + " -g " + x[3] + " -c \"" + x[4] + "\" " + x[0] + "\n");
-                            });
+                            generateCommand(frontList, rearList, "passwd");
                         } else if (front.contains(",") && rear.contains(",")) {
                             String[] frontSplit = front.split(",");
                             String[] rearSplit = rear.split(",");
@@ -358,7 +381,7 @@ public class SyncPasswd {
                             for (int iii = 0; iii < frontList.size(); iii++) {
                                 for (int iiii = 0; iiii < rearList.size(); iiii++) {
                                     if (frontList.get(iii)[0].equals(rearList.get(iiii)[0])) {
-                                        userChg.append("usermod -o -u " + rearList.get(iiii)[2] + " -d " + rearList.get(iiii)[5] + " -s " + rearList.get(iiii)[6] + " -g " + rearList.get(iiii)[3] + " -c \"" + rearList.get(iiii)[4] + "\" " + rearList.get(iiii)[0] + "\n");
+                                        userChg.append("usermod -o -u ").append(rearList.get(iiii)[2]).append(" -d ").append(rearList.get(iiii)[5]).append(" -s ").append(rearList.get(iiii)[6]).append(" -g ").append(rearList.get(iiii)[3]).append(" -c \"").append(rearList.get(iiii)[4]).append("\" ").append(rearList.get(iiii)[0]).append("\n");
                                         frontList.remove(iii);
                                         rearList.remove(iiii);
                                         iii--;
@@ -366,12 +389,7 @@ public class SyncPasswd {
                                     }
                                 }
                             }
-                            frontList.forEach(x -> {
-                                userDel.append("userdel -r " + x[0] + "\n");
-                            });
-                            rearList.forEach(x -> {
-                                userAdd.append("useradd -o -u " + x[2] + " -d " + x[5] + " -s " + x[6] + " -g " + x[3] + " -c \"" + x[4] + "\" " + x[0] + "\n");
-                            });
+                            generateCommand(frontList, rearList, "passwd");
                         } else if (front.contains(",") && !rear.contains(",")) {
                             String[] frontSplit = front.split(",");
                             List<String[]> frontList = new ArrayList<>();
@@ -386,35 +404,35 @@ public class SyncPasswd {
                             i = ii + 1;
                             for (int iii = 0; iii < frontList.size(); iii++) {
                                 if (frontList.get(iii)[0].equals(rearList.get(0)[0])) {
-                                    userChg.append("usermod -o -u " + rearList.get(0)[2] + " -d " + rearList.get(0)[5] + " -s " + rearList.get(0)[6] + " -g " + rearList.get(0)[3] + " -c \"" + rearList.get(0)[4] + "\" " + rearList.get(0)[0] + "\n");
+                                    userChg.append("usermod -o -u ").append(rearList.get(0)[2]).append(" -d ").append(rearList.get(0)[5]).append(" -s ").append(rearList.get(0)[6]).append(" -g ").append(rearList.get(0)[3]).append(" -c \"").append(rearList.get(0)[4]).append("\" ").append(rearList.get(0)[0]).append("\n");
                                     frontList.remove(iii);
                                     rearList.remove(0);
                                     break;
                                 }
                             }
-                            frontList.forEach(x -> {
-                                userDel.append("userdel -r " + x[0] + "\n");
-                            });
-                            rearList.forEach(x -> {
-                                userAdd.append("useradd -o -u " + x[2] + " -d " + x[5] + " -s " + x[6] + " -g " + x[3] + " -c \"" + x[4] + "\" " + x[0] + "\n");
-                            });
+                            generateCommand(frontList, rearList, "passwd");
                         } else {
                             String[] fields_b = results.get(i + 1).substring(2).split(":");
                             String[] fields_p = results.get(i + 3).substring(2).split(":");
                             if (fields_b[0].equals(fields_p[0])) {
-                                userChg.append("usermod -o -u " + fields_p[2] + " -d " + fields_p[5] + " -s " + fields_p[6] + " -g " + fields_p[3] + " -c \"" + fields_p[4] + "\" " + fields_p[0] + "\n");
+                                userChg.append("usermod -o -u ").append(fields_p[2]).append(" -d ").append(fields_p[5]).append(" -s ").append(fields_p[6]).append(" -g ").append(fields_p[3]).append(" -c \"").append(fields_p[4]).append("\" ").append(fields_p[0]).append("\n");
                             } else {
-                                userDel.append("userdel -r " + fields_b[0] + "\n");
-                                userAdd.append("useradd -o -u " + fields_p[2] + " -d " + fields_p[5] + " -s " + fields_p[6] + " -g " + fields_p[3] + " -c \"" + fields_p[4] + "\" " + fields_p[0] + "\n");
+                                userDel.append("userdel -r ").append(fields_b[0]).append("\n");
+                                userAdd.append("useradd -o -u ").append(fields_p[2]).append(" -d ").append(fields_p[5]).append(" -s ").append(fields_p[6]).append(" -g ").append(fields_p[3]).append(" -c \"").append(fields_p[4]).append("\" ").append(fields_p[0]).append("\n");
                             }
                             i += 1 + 3;
                         }
                         break;
                     default:
                         log.error("Error!");
+                        return false;
                 }
             }
-        } else log.error("This comparison is wrong! SyncPasswd:diffAndParsePasswd()");
+        } else {
+            log.error("This comparison is wrong! SyncPasswd:diffAndParsePasswd()");
+            return false;
+        }
+        return true;
     }
 
     private String which_acd(String str) {
@@ -425,5 +443,34 @@ public class SyncPasswd {
         } else if (str.contains("c")) {
             return "change";
         } else return null;
+    }
+
+    private void generateCommand(List<String[]> frontList, List<String[]> rearList, String type) {
+        if (type.equals("group")) {
+            frontList.forEach(x -> groupDel.append("groupdel ").append(x[0]).append("\n"));
+            rearList.forEach(x -> groupAdd.append("groupadd -fo -g ").append(x[2]).append(" ").append(x[0]).append("\n"));
+        } else {
+            frontList.forEach(x -> userDel.append("userdel -r ").append(x[0]).append("\n"));
+            rearList.forEach(x -> userAdd.append("useradd -o -u ").append(x[2]).append(" -d ").append(x[5]).append(" -s ").append(x[6]).append(" -g ").append(x[3]).append(" -c \"").append(x[4]).append("\" ").append(x[0]).append("\n"));
+        }
+    }
+    public boolean generateScript(){
+        if(isChange){
+            script.append(groupAdd).append(groupChg).append(userAdd).append(userChg).append(userDel).append("exit 0");
+//        System.out.println(script);
+            String fileName="changepasswd_"+new SimpleDateFormat("yyyyMMddHHmmss").format(new Date())+".sh";
+            try {
+                Files.write(Paths.get("~/liupei/test/sms/passwd/"+fileName),script.toString().getBytes());
+                log.info("生成脚本:"+fileName+"成功.");
+                return true;
+            } catch (IOException e) {
+                e.printStackTrace();
+                log.error("生成脚本:"+fileName+"失败!");
+                return false;
+            }
+        }else {
+            log.info("本次比对passwd文件没有发现不同.");
+            return true;
+        }
     }
 }

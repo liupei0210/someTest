@@ -468,3 +468,265 @@ INFO main com.moon.jsch.TestSftp - Channel is opened.
 INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
 INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 比对passwd文件成功.
 INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 生成脚本:changepasswd_20200826103810.sh成功.
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
+INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
+INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
+INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.191
+INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
+INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
+INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.191
+INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 拷贝文件完成.
+INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 文件内容排序完成.
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+ERROR main com.moon.jsch.TestSftp - Create jsch channel exec error!
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
+INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
+INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
+INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.191
+INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
+INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
+INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.191
+INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 拷贝文件完成.
+INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 文件内容排序完成.
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+ERROR main com.moon.jsch.TestSftp - Create jsch channel exec error!
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
+INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
+INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
+INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.191
+INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
+INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
+INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.191
+INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 拷贝文件完成.
+INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 文件内容排序完成.
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - No difference was found in the comparison results. SyncPasswd:diffAndParseGroup()
+INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 比对group文件完成.
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - No difference was found in the comparison results. SyncPasswd:diffAndParsePasswd()
+INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 比对passwd文件成功.
+INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 本次比对passwd文件没有发现不同.
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+ERROR main com.moon.jsch.sunsheen.sms.sysbackup.SyncFolder - Error!
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+ERROR main com.moon.jsch.sunsheen.sms.sysbackup.SyncFolder - Error!
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+ERROR main com.moon.jsch.sunsheen.sms.sysbackup.SyncFolder - Error!
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1

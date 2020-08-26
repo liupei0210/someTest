@@ -8,7 +8,15 @@ import java.nio.file.Paths;
 import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.stream.Collectors;
-
+/*
+* 执行过程:
+* 1.将需要对比的group\passwd分别从主中心和备份中心拷贝到web服务器system_sync/passwd/下
+* 2.将文件内容进行排序
+* 3.执行diff命令对比,并获取对比结果
+* 4.对比结果解析,a即是新增,d即是删除,c即是修改
+* 5.修改策略:先将字符串按":"切割,第0个数据是名称.备份中心和主中心一行一行按照名称对比,发现相同的则生成修改命令,并将相同的数据移除.最后备份中心剩下的数据
+* 生成删除命令,主中心剩下的数据生成新增数据.
+* */
 public class SyncPasswd {
     private final static Logger log = Logger.getLogger(SyncPasswd.class);
     private final StringBuffer script = new StringBuffer("#!/bin/bash\n");
@@ -68,10 +76,10 @@ public class SyncPasswd {
         SshUtils ssh = new SshUtils();
         ssh.createSession(userPrimary);
         try {
-            if (!Files.exists(Paths.get("~/liupei/test/sms/passwd/")))
-                Files.createDirectories(Paths.get("~/liupei/test/sms/passwd/"));
+            if (!Files.exists(Paths.get("system_sync/passwd/")))
+                Files.createDirectories(Paths.get("system_sync/passwd/"));
             else
-                Files.walk(Paths.get("~/liupei/test/sms/passwd/")).filter(Files::isRegularFile).forEach(x -> {
+                Files.walk(Paths.get("system_sync/passwd/")).filter(Files::isRegularFile).forEach(x -> {
                     try {
                         Files.deleteIfExists(x);
                     } catch (IOException e) {
@@ -81,15 +89,15 @@ public class SyncPasswd {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        ssh.sftp("/etc/group", "~/liupei/test/sms/passwd/group_p", SshUtils.SFTP_GET);
-        ssh.sftp("/etc/passwd", "~/liupei/test/sms/passwd/passwd_p", SshUtils.SFTP_GET);
+        ssh.sftp("/etc/group", "system_sync/passwd/group_p", SshUtils.SFTP_GET);
+        ssh.sftp("/etc/passwd", "system_sync/passwd/passwd_p", SshUtils.SFTP_GET);
         ssh.closeSession();
         ssh.createSession(userBackup);
-        ssh.sftp("/etc/group", "~/liupei/test/sms/passwd/group_b", SshUtils.SFTP_GET);
-        ssh.sftp("/etc/passwd", "~/liupei/test/sms/passwd/passwd_b", SshUtils.SFTP_GET);
+        ssh.sftp("/etc/group", "system_sync/passwd/group_b", SshUtils.SFTP_GET);
+        ssh.sftp("/etc/passwd", "system_sync/passwd/passwd_b", SshUtils.SFTP_GET);
         ssh.closeSession();
         try {
-            return Files.walk(Paths.get("~/liupei/test/sms/passwd/")).filter(Files::isRegularFile).collect(Collectors.toSet()).size() == 4;
+            return Files.walk(Paths.get("system_sync/passwd/")).filter(Files::isRegularFile).collect(Collectors.toSet()).size() == 4;
         } catch (IOException e) {
             e.printStackTrace();
             return false;
@@ -99,7 +107,7 @@ public class SyncPasswd {
     //对文件内容进行排序
     private boolean sortFileContent() {
         try {
-            Files.walk(Paths.get("~/liupei/test/sms/passwd/")).filter(Files::isRegularFile).collect(Collectors.toSet()).forEach(x -> {
+            Files.walk(Paths.get("system_sync/passwd/")).filter(Files::isRegularFile).collect(Collectors.toSet()).forEach(x -> {
                 try {
                     List<String> list = Files.readAllLines(x);
                     Collections.sort(list);
@@ -122,7 +130,7 @@ public class SyncPasswd {
         myself.setPassword("liupei0210");
         SshUtils ssh = new SshUtils();
         ssh.createSession(myself);
-        List<String> results = ssh.exec("diff /home/liupei/IdeaProjects/someTest/~/liupei/test/sms/passwd/group_b /home/liupei/IdeaProjects/someTest/~/liupei/test/sms/passwd/group_p");
+        List<String> results = ssh.exec("diff /home/liupei/IdeaProjects/someTest/system_sync/passwd/group_b /home/liupei/IdeaProjects/someTest/system_sync/passwd/group_p");
         ssh.closeSession();
 //        results.forEach(System.out::println);
         int exitStatus = Integer.parseInt(results.get(0));
@@ -285,7 +293,7 @@ public class SyncPasswd {
         myself.setPassword("liupei0210");
         SshUtils ssh = new SshUtils();
         ssh.createSession(myself);
-        List<String> results = ssh.exec("diff /home/liupei/IdeaProjects/someTest/~/liupei/test/sms/passwd/passwd_b /home/liupei/IdeaProjects/someTest/~/liupei/test/sms/passwd/passwd_p");
+        List<String> results = ssh.exec("diff /home/liupei/IdeaProjects/someTest/system_sync/passwd/passwd_b /home/liupei/IdeaProjects/someTest/system_sync/passwd/passwd_p");
         ssh.closeSession();
 //        results.forEach(System.out::println);
         int exitStatus = Integer.parseInt(results.get(0));
@@ -460,7 +468,7 @@ public class SyncPasswd {
 //        System.out.println(script);
             String fileName="changepasswd_"+new SimpleDateFormat("yyyyMMddHHmmss").format(new Date())+".sh";
             try {
-                Files.write(Paths.get("~/liupei/test/sms/passwd/"+fileName),script.toString().getBytes());
+                Files.write(Paths.get("system_sync/passwd/"+fileName),script.toString().getBytes());
                 log.info("生成脚本:"+fileName+"成功.");
                 return true;
             } catch (IOException e) {

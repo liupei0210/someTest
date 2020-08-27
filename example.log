@@ -730,3 +730,58 @@ INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
 INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
 INFO main com.moon.jsch.TestSftp - Channel is opened.
 INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncFolder - 发现文件夹权限不一致,生成权限一致命令.
+INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncFolder - 发现文件夹属主不一致,生成属主一致命令.
+INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncFolder - 主/备中心文件夹对比完成.
+INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncFolder - 生成脚本:changeFolder_20200827112546.sh成功.
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncFolder - 发现文件夹属主不一致,生成属主一致命令.
+INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncFolder - 主/备中心文件夹对比完成.
+INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncFolder - 生成脚本:changeFolder_20200827112744.sh成功.
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncFolder - 发现文件夹权限不一致,生成权限一致命令.
+INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncFolder - 发现文件夹属主不一致,生成属主一致命令.
+INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncFolder - 主/备中心文件夹对比完成.
+INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncFolder - 生成脚本:changeFolder_20200827112847.sh成功.
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
+INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
+INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
+INFO main com.moon.jsch.TestSftp - Channel is opened.
+INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
+INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncFolder - 发现文件夹权限不一致,生成权限一致命令.
+INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncFolder - 发现文件夹属主不一致,生成属主一致命令.
+INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncFolder - 主/备中心文件夹对比完成.
+INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncFolder - 生成脚本:changeFolder_20200827140355.sh成功.

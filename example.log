@@ -1,826 +1,575 @@
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - No difference was found in the comparison results. SyncPasswd:diffAndParseGroup()
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - No difference was found in the comparison results. SyncPasswd:diffAndParseGroup()
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - No difference was found in the comparison results. SyncPasswd:diffAndParseGroup()
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - No difference was found in the comparison results. SyncPasswd:diffAndParseGroup()
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - No difference was found in the comparison results. SyncPasswd:diffAndParseGroup()
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.195.214
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.195.214
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.195.214
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.195.214
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.191
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.191
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.191
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.191
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - No difference was found in the comparison results. SyncPasswd:diffAndParseGroup()
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - No difference was found in the comparison results. SyncPasswd:diffAndParseGroup()
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.191
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.191
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - No difference was found in the comparison results. SyncPasswd:diffAndParseGroup()
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - No difference was found in the comparison results. SyncPasswd:diffAndParseGroup()
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.191
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.191
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - No difference was found in the comparison results. SyncPasswd:diffAndParseGroup()
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - No difference was found in the comparison results. SyncPasswd:diffAndParsePasswd()
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.193
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.193
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.193
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.193
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.193
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.193
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.193
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.193
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.193
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.193
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.193
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.193
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.193
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.193
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.193
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.193
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.193
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.193
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.193
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.193
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 生成脚本:changepasswd_20200826101604.sh成功.
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.193
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.193
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 生成脚本:changepasswd_20200826101637.sh成功.
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.193
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.193
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 拷贝文件完成.
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 文件内容排序完成.
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 比对group文件完成.
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 比对passwd文件成功.
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 生成脚本:changepasswd_20200826102121.sh成功.
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.193
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.193
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 拷贝文件完成.
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 文件内容排序完成.
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 比对group文件完成.
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 比对passwd文件成功.
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 生成脚本:changepasswd_20200826102645.sh成功.
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.191
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.191
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 拷贝文件完成.
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 文件内容排序完成.
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - No difference was found in the comparison results. SyncPasswd:diffAndParseGroup()
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 比对group文件完成.
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - No difference was found in the comparison results. SyncPasswd:diffAndParsePasswd()
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 比对passwd文件成功.
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 本次对比passwd文件没有发现不同.
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.191
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.191
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 拷贝文件完成.
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 文件内容排序完成.
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - No difference was found in the comparison results. SyncPasswd:diffAndParseGroup()
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 比对group文件完成.
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - No difference was found in the comparison results. SyncPasswd:diffAndParsePasswd()
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 比对passwd文件成功.
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 本次比对passwd文件没有发现不同.
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.191
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.191
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 拷贝文件完成.
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 文件内容排序完成.
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 比对group文件完成.
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 比对passwd文件成功.
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 生成脚本:changepasswd_20200826103810.sh成功.
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.191
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.191
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 拷贝文件完成.
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 文件内容排序完成.
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-ERROR main com.moon.jsch.TestSftp - Create jsch channel exec error!
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.191
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.191
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 拷贝文件完成.
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 文件内容排序完成.
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-ERROR main com.moon.jsch.TestSftp - Create jsch channel exec error!
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.191
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Create jsch channel sftp successfully.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.191
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 拷贝文件完成.
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 文件内容排序完成.
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - No difference was found in the comparison results. SyncPasswd:diffAndParseGroup()
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 比对group文件完成.
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - No difference was found in the comparison results. SyncPasswd:diffAndParsePasswd()
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 比对passwd文件成功.
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncPasswd - 本次比对passwd文件没有发现不同.
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-ERROR main com.moon.jsch.sunsheen.sms.sysbackup.SyncFolder - Error!
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-ERROR main com.moon.jsch.sunsheen.sms.sysbackup.SyncFolder - Error!
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-ERROR main com.moon.jsch.sunsheen.sms.sysbackup.SyncFolder - Error!
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncFolder - 发现文件夹权限不一致,生成权限一致命令.
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncFolder - 发现文件夹属主不一致,生成属主一致命令.
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncFolder - 主/备中心文件夹对比完成.
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncFolder - 生成脚本:changeFolder_20200827112546.sh成功.
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncFolder - 发现文件夹属主不一致,生成属主一致命令.
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncFolder - 主/备中心文件夹对比完成.
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncFolder - 生成脚本:changeFolder_20200827112744.sh成功.
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncFolder - 发现文件夹权限不一致,生成权限一致命令.
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncFolder - 发现文件夹属主不一致,生成属主一致命令.
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncFolder - 主/备中心文件夹对比完成.
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncFolder - 生成脚本:changeFolder_20200827112847.sh成功.
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 127.0.0.1
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 127.0.0.1
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncFolder - 发现文件夹权限不一致,生成权限一致命令.
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncFolder - 发现文件夹属主不一致,生成属主一致命令.
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncFolder - 主/备中心文件夹对比完成.
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SyncFolder - 生成脚本:changeFolder_20200827140355.sh成功.
-INFO main com.xxl.job.core.executor.XxlJobExecutor - >>>>>>>>>>> xxl-job register jobhandler success, name:demoJobHandler, jobHandler:com.moon.xxl.DemoJobHandler@59690aa4
-ERROR main com.moon.xxl.FramelessApplication - 
-java.lang.NullPointerException
-	at java.base/java.util.Objects.requireNonNull(Objects.java:222)
-	at com.moon.xxl.FrameLessXxlJobConfig.loadProperties(FrameLessXxlJobConfig.java:74)
-	at com.moon.xxl.FrameLessXxlJobConfig.initXxlJobExecutor(FrameLessXxlJobConfig.java:37)
-	at com.moon.xxl.FramelessApplication.main(FramelessApplication.java:18)
-INFO main com.xxl.job.core.executor.XxlJobExecutor - >>>>>>>>>>> xxl-job register jobhandler success, name:demoJobHandler, jobHandler:com.moon.xxl.DemoJobHandler@59690aa4
-ERROR main com.moon.xxl.FramelessApplication - 
-java.lang.NullPointerException
-	at java.base/java.util.Objects.requireNonNull(Objects.java:222)
-	at com.moon.xxl.FrameLessXxlJobConfig.loadProperties(FrameLessXxlJobConfig.java:74)
-	at com.moon.xxl.FrameLessXxlJobConfig.initXxlJobExecutor(FrameLessXxlJobConfig.java:37)
-	at com.moon.xxl.FramelessApplication.main(FramelessApplication.java:18)
-INFO main com.xxl.job.core.executor.XxlJobExecutor - >>>>>>>>>>> xxl-job register jobhandler success, name:demoJobHandler, jobHandler:com.moon.xxl.DemoJobHandler@59690aa4
-ERROR main com.moon.xxl.FramelessApplication - 
-java.lang.NullPointerException
-	at java.base/java.util.Objects.requireNonNull(Objects.java:222)
-	at com.moon.xxl.FrameLessXxlJobConfig.loadProperties(FrameLessXxlJobConfig.java:74)
-	at com.moon.xxl.FrameLessXxlJobConfig.initXxlJobExecutor(FrameLessXxlJobConfig.java:37)
-	at com.moon.xxl.FramelessApplication.main(FramelessApplication.java:18)
-INFO main com.xxl.job.core.executor.XxlJobExecutor - >>>>>>>>>>> xxl-job register jobhandler success, name:demoJobHandler, jobHandler:com.moon.xxl.DemoJobHandler@59690aa4
-ERROR main com.moon.xxl.FramelessApplication - 
-java.lang.NullPointerException
-	at java.base/java.util.Objects.requireNonNull(Objects.java:222)
-	at com.moon.xxl.FrameLessXxlJobConfig.loadProperties(FrameLessXxlJobConfig.java:74)
-	at com.moon.xxl.FrameLessXxlJobConfig.initXxlJobExecutor(FrameLessXxlJobConfig.java:37)
-	at com.moon.xxl.FramelessApplication.main(FramelessApplication.java:18)
-INFO main com.xxl.job.core.executor.XxlJobExecutor - >>>>>>>>>>> xxl-job register jobhandler success, name:demoJobHandler, jobHandler:com.moon.xxl.DemoJobHandler@59690aa4
-ERROR main com.moon.xxl.FramelessApplication - 
-java.lang.NullPointerException
-	at java.base/java.util.Objects.requireNonNull(Objects.java:222)
-	at com.moon.xxl.FrameLessXxlJobConfig.loadProperties(FrameLessXxlJobConfig.java:74)
-	at com.moon.xxl.FrameLessXxlJobConfig.initXxlJobExecutor(FrameLessXxlJobConfig.java:37)
-	at com.moon.xxl.FramelessApplication.main(FramelessApplication.java:18)
-INFO main com.xxl.job.core.executor.XxlJobExecutor - >>>>>>>>>>> xxl-job register jobhandler success, name:demoJobHandler, jobHandler:com.moon.xxl.DemoJobHandler@59690aa4
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1108924067.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [org.postgresql.jdbc.PgConnection@4218d6a3]
+DEBUG main com.moon.mybatis.Info.selectInfo - ==>  Preparing: select * from sms_envirsync_item_info where id = ?
+DEBUG main com.moon.mybatis.Info.selectInfo - ==> Parameters: 0(Integer)
+DEBUG main com.moon.mybatis.Info.selectInfo - <==      Total: 1
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1108924067.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [org.postgresql.jdbc.PgConnection@4218d6a3]
+DEBUG main com.moon.mybatis.Info.selectInfo - ==>  Preparing: select * from sms_envirsync_item_info where id = ?
+DEBUG main com.moon.mybatis.Info.selectInfo - ==> Parameters: 0(Integer)
+DEBUG main com.moon.mybatis.Info.selectInfo - <==      Total: 1
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1108924067.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [org.postgresql.jdbc.PgConnection@4218d6a3]
+DEBUG main com.moon.mybatis.Info.selectInfo - ==>  Preparing: select * from sms_envirsync_item_info where id = ? and name=?
+DEBUG main com.moon.mybatis.Info.selectInfo - ==> Parameters: 0(Integer), 账户配置(String)
+DEBUG main com.moon.mybatis.Info.selectInfo - <==      Total: 1
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1108924067.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [org.postgresql.jdbc.PgConnection@4218d6a3]
+DEBUG main com.moon.mybatis.Info.selectInfo - ==>  Preparing: select * from sms_envirsync_item_info where id = ? and name=?
+DEBUG main com.moon.mybatis.Info.selectInfo - ==> Parameters: 0(Integer), 账户配置(String)
+DEBUG main com.moon.mybatis.Info.selectInfo - <==      Total: 1
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initializing ...
+ERROR main net.neoremind.sshxcute.core.SSHExec - Connect fails with the following exception: com.jcraft.jsch.JSchException: java.io.FileNotFoundException: admin (No such file or directory)
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initializing ...
+INFO main net.neoremind.sshxcute.core.SSHExec - Session initialized and associated with user credential admin
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initialized successfully
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec trying to connect root@172.18.194.117
+INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection established
+INFO main net.neoremind.sshxcute.core.SSHExec - Command is echo 123
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel established succesfully
+INFO main net.neoremind.sshxcute.core.SSHExec - Start to run command
+INFO main net.neoremind.sshxcute.core.SSHExec - 123
+
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel closed
+INFO main net.neoremind.sshxcute.core.SSHExec - Check if exec success or not ... 
+INFO main net.neoremind.sshxcute.core.SSHExec - Execute successfully for command: echo 123
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel disconnect
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initializing ...
+INFO main net.neoremind.sshxcute.core.SSHExec - Session initialized and associated with user credential admin
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initialized successfully
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec trying to connect root@172.18.194.117
+INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection established
+INFO main net.neoremind.sshxcute.core.SSHExec - Command is echo 123
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel established succesfully
+INFO main net.neoremind.sshxcute.core.SSHExec - Start to run command
+INFO main net.neoremind.sshxcute.core.SSHExec - 123
+
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel closed
+INFO main net.neoremind.sshxcute.core.SSHExec - Check if exec success or not ... 
+INFO main net.neoremind.sshxcute.core.SSHExec - Execute successfully for command: echo 123
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel disconnect
+INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection shutdown
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initializing ...
+INFO main net.neoremind.sshxcute.core.SSHExec - Session initialized and associated with user credential admin
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initialized successfully
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec trying to connect root@172.18.194.117
+INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection established
+INFO main net.neoremind.sshxcute.core.SSHExec - Command is echo 123
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel established succesfully
+INFO main net.neoremind.sshxcute.core.SSHExec - Start to run command
+INFO main net.neoremind.sshxcute.core.SSHExec - 123
+
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel closed
+INFO main net.neoremind.sshxcute.core.SSHExec - Check if exec success or not ... 
+INFO main net.neoremind.sshxcute.core.SSHExec - Execute successfully for command: echo 123
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel disconnect
+INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection shutdown
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initializing ...
+INFO main net.neoremind.sshxcute.core.SSHExec - Session initialized and associated with user credential admin
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initialized successfully
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec trying to connect root@172.18.194.117
+INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection established
+INFO main net.neoremind.sshxcute.core.SSHExec - Command is diff /root/test/passwd/passwd /root/test/passwd/passwd1
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel established succesfully
+INFO main net.neoremind.sshxcute.core.SSHExec - Start to run command
+INFO main net.neoremind.sshxcute.core.SSHExec - 18d17
+< polkitd:x:997:995:User for polkitd:/:/sbin/nologin
+21,22c20
+< sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+< sms:x:1000:1000::/home/sms:/bin/bash
+---
+> sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologi
+
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel closed
+INFO main net.neoremind.sshxcute.core.SSHExec - Check if exec success or not ... 
+INFO main net.neoremind.sshxcute.core.SSHExec - Execution failed while executing command: diff /root/test/passwd/passwd /root/test/passwd/passwd1
+INFO main net.neoremind.sshxcute.core.SSHExec - Error message: 
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel disconnect
+INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection shutdown
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initializing ...
+INFO main net.neoremind.sshxcute.core.SSHExec - Session initialized and associated with user credential admin
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initialized successfully
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec trying to connect root@172.18.194.117
+INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection established
+INFO main net.neoremind.sshxcute.core.SSHExec - Command is diff /root/test/passwd/passwd /root/test/passwd/passwd1
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel established succesfully
+INFO main net.neoremind.sshxcute.core.SSHExec - Start to run command
+INFO main net.neoremind.sshxcute.core.SSHExec - 18d17
+< polkitd:x:997:995:User for polkitd:/:/sbin/nologin
+21,22c20
+< sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+< sms:x:1000:1000::/home/sms:/bin/bash
+---
+> sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologi
+
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel closed
+INFO main net.neoremind.sshxcute.core.SSHExec - Check if exec success or not ... 
+INFO main net.neoremind.sshxcute.core.SSHExec - Execution failed while executing command: diff /root/test/passwd/passwd /root/test/passwd/passwd1
+INFO main net.neoremind.sshxcute.core.SSHExec - Error message: 
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel disconnect
+INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection shutdown
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initializing ...
+INFO main net.neoremind.sshxcute.core.SSHExec - Session initialized and associated with user credential admin
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initialized successfully
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec trying to connect root@172.18.194.117
+INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection established
+INFO main net.neoremind.sshxcute.core.SSHExec - Command is diff /root/test/passwd/passwd /root/test/passwd/passwd1
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel established succesfully
+INFO main net.neoremind.sshxcute.core.SSHExec - Start to run command
+INFO main net.neoremind.sshxcute.core.SSHExec - 18d17
+< polkitd:x:997:995:User for polkitd:/:/sbin/nologin
+21,22c20
+< sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+< sms:x:1000:1000::/home/sms:/bin/bash
+---
+> sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologi
+
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel closed
+INFO main net.neoremind.sshxcute.core.SSHExec - Check if exec success or not ... 
+INFO main net.neoremind.sshxcute.core.SSHExec - Execution failed while executing command: diff /root/test/passwd/passwd /root/test/passwd/passwd1
+INFO main net.neoremind.sshxcute.core.SSHExec - Error message: 
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel disconnect
+INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection shutdown
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initializing ...
+INFO main net.neoremind.sshxcute.core.SSHExec - Session initialized and associated with user credential admin
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initialized successfully
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec trying to connect root@172.18.194.117
+INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection established
+INFO main net.neoremind.sshxcute.core.SSHExec - Command is diff /root/test/passwd/passwd /root/test/passwd/passwd1
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel established succesfully
+INFO main net.neoremind.sshxcute.core.SSHExec - Start to run command
+INFO main net.neoremind.sshxcute.core.SSHExec - 18d17
+< polkitd:x:997:995:User for polkitd:/:/sbin/nologin
+21,22c20
+< sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+< sms:x:1000:1000::/home/sms:/bin/bash
+---
+> sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologi
+
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel closed
+INFO main net.neoremind.sshxcute.core.SSHExec - Check if exec success or not ... 
+INFO main net.neoremind.sshxcute.core.SSHExec - Execution failed while executing command: diff /root/test/passwd/passwd /root/test/passwd/passwd1
+INFO main net.neoremind.sshxcute.core.SSHExec - Error message: 
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel disconnect
+INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection shutdown
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initializing ...
+INFO main net.neoremind.sshxcute.core.SSHExec - Session initialized and associated with user credential admin
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initialized successfully
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec trying to connect root@172.18.194.117
+INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection established
+INFO main net.neoremind.sshxcute.core.SSHExec - Command is bash -v sh01.sh
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel established succesfully
+INFO main net.neoremind.sshxcute.core.SSHExec - Start to run command
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel closed
+INFO main net.neoremind.sshxcute.core.SSHExec - Check if exec success or not ... 
+INFO main net.neoremind.sshxcute.core.SSHExec - Execution failed while executing command: bash -v sh01.sh
+INFO main net.neoremind.sshxcute.core.SSHExec - Error message: bash: sh01.sh: No such file or directory
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel disconnect
+INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection shutdown
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initializing ...
+INFO main net.neoremind.sshxcute.core.SSHExec - Session initialized and associated with user credential admin
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initialized successfully
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec trying to connect root@172.18.194.117
+INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection established
+INFO main net.neoremind.sshxcute.core.SSHExec - Command is bash -v /root/test/sh01.sh
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel established succesfully
+INFO main net.neoremind.sshxcute.core.SSHExec - Start to run command
+INFO main net.neoremind.sshxcute.core.SSHExec - Hello world!
+
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel closed
+INFO main net.neoremind.sshxcute.core.SSHExec - Check if exec success or not ... 
+INFO main net.neoremind.sshxcute.core.SSHExec - Execution failed while executing command: bash -v /root/test/sh01.sh
+INFO main net.neoremind.sshxcute.core.SSHExec - Error message: #!/bin/bashecho "Hello world!"exit 1
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel disconnect
+INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection shutdown
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initializing ...
+INFO main net.neoremind.sshxcute.core.SSHExec - Session initialized and associated with user credential admin
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initialized successfully
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec trying to connect root@172.18.194.117
+INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection established
+INFO main net.neoremind.sshxcute.core.SSHExec - Command is bash -v /root/test/sh01.sh
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel established succesfully
+INFO main net.neoremind.sshxcute.core.SSHExec - Start to run command
+INFO main net.neoremind.sshxcute.core.SSHExec - Hello world!
+
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel closed
+INFO main net.neoremind.sshxcute.core.SSHExec - Check if exec success or not ... 
+INFO main net.neoremind.sshxcute.core.SSHExec - Execute successfully for command: bash -v /root/test/sh01.sh
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel disconnect
+INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection shutdown
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initializing ...
+INFO main net.neoremind.sshxcute.core.SSHExec - Session initialized and associated with user credential admin
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initialized successfully
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec trying to connect root@172.18.194.117
+INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection established
+INFO main net.neoremind.sshxcute.core.SSHExec - Command is bash -v /root/test/sh01.sh
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel established succesfully
+INFO main net.neoremind.sshxcute.core.SSHExec - Start to run command
+INFO main net.neoremind.sshxcute.core.SSHExec - Hello world!
+
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel closed
+INFO main net.neoremind.sshxcute.core.SSHExec - Check if exec success or not ... 
+INFO main net.neoremind.sshxcute.core.SSHExec - Execute successfully for command: bash -v /root/test/sh01.sh
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel disconnect
+INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection shutdown
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initializing ...
+INFO main net.neoremind.sshxcute.core.SSHExec - Session initialized and associated with user credential admin
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initialized successfully
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec trying to connect root@172.18.194.117
+INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection established
+INFO main net.neoremind.sshxcute.core.SSHExec - Command is bash -v /root/test/sh01.sh
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel established succesfully
+INFO main net.neoremind.sshxcute.core.SSHExec - Start to run command
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel closed
+INFO main net.neoremind.sshxcute.core.SSHExec - Check if exec success or not ... 
+INFO main net.neoremind.sshxcute.core.SSHExec - Execute successfully for command: bash -v /root/test/sh01.sh
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel disconnect
+INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection shutdown
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initializing ...
+INFO main net.neoremind.sshxcute.core.SSHExec - Session initialized and associated with user credential admin
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initialized successfully
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec trying to connect root@172.18.194.117
+INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection established
+INFO main net.neoremind.sshxcute.core.SSHExec - Command is bash -v /root/test/sh01.sh
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel established succesfully
+INFO main net.neoremind.sshxcute.core.SSHExec - Start to run command
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel closed
+INFO main net.neoremind.sshxcute.core.SSHExec - Check if exec success or not ... 
+INFO main net.neoremind.sshxcute.core.SSHExec - Execute successfully for command: bash -v /root/test/sh01.sh
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel disconnect
+INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection shutdown
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initializing ...
+INFO main net.neoremind.sshxcute.core.SSHExec - Session initialized and associated with user credential admin
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initialized successfully
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec trying to connect root@172.18.194.117
+INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection established
+INFO main net.neoremind.sshxcute.core.SSHExec - Command is bash -v /root/test/sh01.sh
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel established succesfully
+INFO main net.neoremind.sshxcute.core.SSHExec - Start to run command
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel closed
+INFO main net.neoremind.sshxcute.core.SSHExec - Check if exec success or not ... 
+INFO main net.neoremind.sshxcute.core.SSHExec - Execution failed while executing command: bash -v /root/test/sh01.sh
+INFO main net.neoremind.sshxcute.core.SSHExec - Error message: #!/bin/bashechoo "Hello world!"/root/test/sh01.sh: line 2: echoo: command not found
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel disconnect
+INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection shutdown
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initializing ...
+INFO main net.neoremind.sshxcute.core.SSHExec - Session initialized and associated with user credential admin
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initialized successfully
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec trying to connect root@172.18.194.117
+INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection established
+INFO main net.neoremind.sshxcute.core.SSHExec - Command is bash -v /root/test/sh01.sh
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel established succesfully
+INFO main net.neoremind.sshxcute.core.SSHExec - Start to run command
+INFO main net.neoremind.sshxcute.core.SSHExec - 123456
+
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel closed
+INFO main net.neoremind.sshxcute.core.SSHExec - Check if exec success or not ... 
+INFO main net.neoremind.sshxcute.core.SSHExec - Execute successfully for command: bash -v /root/test/sh01.sh
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel disconnect
+INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection shutdown
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 348984985.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [org.postgresql.jdbc.PgConnection@14cd1699]
+DEBUG main com.moon.mybatis.sms.selectInfo - ==>  Preparing: select * from sms_envirsync_item_info where id = ? and name=?
+DEBUG main com.moon.mybatis.sms.selectInfo - ==> Parameters: 0(Integer), 账户配置(String)
+DEBUG main com.moon.mybatis.sms.selectInfo - <==      Total: 1
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [org.postgresql.jdbc.PgConnection@14cd1699]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [org.postgresql.jdbc.PgConnection@14cd1699]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 348984985 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 348984985.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [org.postgresql.jdbc.PgConnection@14cd1699]
+DEBUG main com.moon.mybatis.sms.item_info - ==>  Preparing: select * from sms_envirsync_item_info where id = ? and name=?
+DEBUG main com.moon.mybatis.sms.item_info - ==> Parameters: 0(Integer), 账户配置(String)
+DEBUG main com.moon.mybatis.sms.item_info - <==      Total: 1
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [org.postgresql.jdbc.PgConnection@14cd1699]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [org.postgresql.jdbc.PgConnection@14cd1699]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 348984985 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1119072377.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@42b3b079]
+DEBUG main com.moon.mybatis.sms.item_info - ==>  Preparing: select * from sms_envirsync_item_info where id = ? and name=?
+DEBUG main com.moon.mybatis.sms.item_info - ==> Parameters: 0(Integer), 账户配置(String)
+DEBUG main com.moon.mybatis.sms.item_info - <==      Total: 0
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@42b3b079]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@42b3b079]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1119072377 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1119072377.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@42b3b079]
+DEBUG main com.moon.mybatis.sms.item_info - ==>  Preparing: select * from sms_envirsync_item_info where id = ? and name=?
+DEBUG main com.moon.mybatis.sms.item_info - ==> Parameters: 0(Integer), 目录配置(String)
+DEBUG main com.moon.mybatis.sms.item_info - <==      Total: 0
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@42b3b079]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@42b3b079]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1119072377 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1119072377.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@42b3b079]
+DEBUG main com.moon.mybatis.sms.item_info - ==>  Preparing: select * from sms_envirsync_item_info where id = ? and name=?
+DEBUG main com.moon.mybatis.sms.item_info - ==> Parameters: 0(Integer), 目录配置(String)
+DEBUG main com.moon.mybatis.sms.item_info - <==      Total: 0
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@42b3b079]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@42b3b079]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1119072377 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 258112787.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@f627d13]
+DEBUG main com.moon.mybatis.sms.item_info - ==>  Preparing: select * from sms_envirsync_item_info
+DEBUG main com.moon.mybatis.sms.item_info - ==> Parameters: 
+DEBUG main com.moon.mybatis.sms.item_info - <==      Total: 4
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@f627d13]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@f627d13]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 258112787 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1119072377.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@42b3b079]
+DEBUG main com.moon.mybatis.sms.item_info - ==>  Preparing: select * from sms_envirsync_item_info where id = ? and name=?
+DEBUG main com.moon.mybatis.sms.item_info - ==> Parameters: 0(Integer), 目录配置(String)
+DEBUG main com.moon.mybatis.sms.item_info - <==      Total: 0
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@42b3b079]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@42b3b079]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1119072377 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1119072377.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@42b3b079]
+DEBUG main com.moon.mybatis.sms.item_info - ==>  Preparing: select * from sms_envirsync_item_info where id = ?
+DEBUG main com.moon.mybatis.sms.item_info - ==> Parameters: 0(Integer)
+DEBUG main com.moon.mybatis.sms.item_info - <==      Total: 1
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@42b3b079]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@42b3b079]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1119072377 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1119072377.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@42b3b079]
+DEBUG main com.moon.mybatis.sms.item_info - ==>  Preparing: select * from sms_envirsync_item_info where name=?
+DEBUG main com.moon.mybatis.sms.item_info - ==> Parameters: 目录配置(String)
+DEBUG main com.moon.mybatis.sms.item_info - <==      Total: 0
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@42b3b079]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@42b3b079]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1119072377 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1119072377.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@42b3b079]
+DEBUG main com.moon.mybatis.sms.item_info - ==>  Preparing: select * from sms_envirsync_item_info where id = ? and name=?
+DEBUG main com.moon.mybatis.sms.item_info - ==> Parameters: 0(Integer), 目录配置(String)
+DEBUG main com.moon.mybatis.sms.item_info - <==      Total: 0
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@42b3b079]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@42b3b079]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1119072377 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 144040807.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@895e367]
+DEBUG main com.moon.mybatis.sms.item_info - ==>  Preparing: select * from sms_envirsync_item_info where id = ? and name=?
+DEBUG main com.moon.mybatis.sms.item_info - ==> Parameters: 0(Integer), 目录配置(String)
+DEBUG main com.moon.mybatis.sms.item_info - <==      Total: 1
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@895e367]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@895e367]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 144040807 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 144040807.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@895e367]
+DEBUG main com.moon.mybatis.sms.ipMapping - ==>  Preparing: select a.main_ip,a.backup_ip,b.text from (select (select server_addr from sms_soft_server b where a.main_server_id=b.sms_soft_server_id ) as main_ip, (select server_addr from sms_soft_server b where a.back_server_id=b.sms_soft_server_id ) as backup_ip, (select ownercode from sms_soft_server b where a.back_server_id=b.sms_soft_server_id ) as ownercode from sms_server_mapping a where a.id=?) a,sms_owner b where a.ownercode=b.code
+DEBUG main com.moon.mybatis.sms.ipMapping - ==> Parameters: 1(Integer)
+DEBUG main com.moon.mybatis.sms.ipMapping - <==      Total: 1
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@895e367]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@895e367]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 144040807 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 144040807.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@895e367]
+DEBUG main com.moon.mybatis.sms.ipMapping - ==>  Preparing: select a.main_ip,a.backup_ip,b.text from (select (select server_addr from sms_soft_server b where a.main_server_id=b.sms_soft_server_id ) as main_ip, (select server_addr from sms_soft_server b where a.back_server_id=b.sms_soft_server_id ) as backup_ip, (select ownercode from sms_soft_server b where a.back_server_id=b.sms_soft_server_id ) as ownercode from sms_server_mapping a where a.id=?) a,sms_owner b where a.ownercode=b.code
+DEBUG main com.moon.mybatis.sms.ipMapping - ==> Parameters: 1(Integer)
+DEBUG main com.moon.mybatis.sms.ipMapping - <==      Total: 1
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@895e367]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@895e367]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 144040807 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 144040807.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@895e367]
+DEBUG main com.moon.mybatis.sms.ipMapping - ==>  Preparing: select a.main_ip,a.backup_ip,b.text from (select (select server_addr from sms_soft_server b where a.main_server_id=b.sms_soft_server_id ) as main_ip, (select server_addr from sms_soft_server b where a.back_server_id=b.sms_soft_server_id ) as backup_ip, (select ownercode from sms_soft_server b where a.back_server_id=b.sms_soft_server_id ) as ownercode from sms_server_mapping a where a.main_server_id=?) a,sms_owner b where a.ownercode=b.code
+DEBUG main com.moon.mybatis.sms.ipMapping - ==> Parameters: 1(Integer)
+DEBUG main com.moon.mybatis.sms.ipMapping - <==      Total: 3
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@895e367]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@895e367]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 144040807 to pool.
+INFO main com.xxl.job.core.executor.XxlJobExecutor - >>>>>>>>>>> xxl-job register jobhandler success, name:demoJobHandler, jobHandler:com.moon.xxl.syncPasswdJobHandler@44e81672
 DEBUG Thread-3 io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
 DEBUG Thread-3 io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
 DEBUG Thread-3 io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
@@ -857,7 +606,7 @@ java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
 	at java.base/java.lang.Thread.run(Thread.java:832)
 DEBUG Thread-3 io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
 DEBUG Thread-3 io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
-java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @5a075e38
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @26aed31a
 	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:376)
 	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:647)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:556)
@@ -891,201 +640,7 @@ DEBUG Thread-3 io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializ
 DEBUG Thread-3 io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
 DEBUG Thread-3 io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
 DEBUG Thread-3 io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
-DEBUG Thread-3 io.netty.channel.DefaultChannelId - -Dio.netty.processId: 14993 (auto-detected)
-DEBUG Thread-3 io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
-DEBUG Thread-3 io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
-DEBUG Thread-3 io.netty.util.NetUtil - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
-DEBUG Thread-3 io.netty.util.NetUtil - /proc/sys/net/core/somaxconn: 4096
-DEBUG Thread-3 io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 14:ab:c5:ff:fe:05:26:84 (auto-detected)
-DEBUG Thread-3 io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
-DEBUG Thread-3 io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
-DEBUG Thread-3 io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
-DEBUG Thread-3 io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
-DEBUG Thread-3 io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
-DEBUG Thread-3 io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
-DEBUG Thread-3 io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
-DEBUG Thread-3 io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
-DEBUG Thread-3 io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
-DEBUG Thread-3 io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
-DEBUG Thread-3 io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-DEBUG Thread-3 io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
-DEBUG Thread-3 io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
-DEBUG Thread-3 io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
-DEBUG Thread-3 io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-DEBUG Thread-3 io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
-DEBUG Thread-3 io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
-DEBUG Thread-3 io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
-INFO Thread-3 com.xxl.job.core.server.EmbedServer - >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 9999
-DEBUG xxl-job, executor ExecutorRegistryThread com.xxl.job.core.thread.ExecutorRegistryThread - >>>>>>>>>>> xxl-job registry success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='xxl-job-executor-sample', registryValue='http://192.168.191.3:9999/'}, registryResult:ReturnT [code=200, msg=null, content=null]
-INFO main com.xxl.job.core.executor.XxlJobExecutor - >>>>>>>>>>> xxl-job register jobhandler success, name:demoJobHandler, jobHandler:com.moon.xxl.DemoJobHandler@59690aa4
-DEBUG Thread-3 io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
-DEBUG Thread-3 io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
-DEBUG Thread-3 io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-DEBUG Thread-3 io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-DEBUG Thread-3 io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
-DEBUG Thread-3 io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
-DEBUG Thread-3 io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
-DEBUG Thread-3 io.netty.util.internal.PlatformDependent0 - Java version: 14
-DEBUG Thread-3 io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
-DEBUG Thread-3 io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
-DEBUG Thread-3 io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
-DEBUG Thread-3 io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable
-java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
-	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31)
-	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:225)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
-	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:219)
-	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:289)
-	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92)
-	at io.netty.channel.nio.NioEventLoop.newTaskQueue0(NioEventLoop.java:279)
-	at io.netty.channel.nio.NioEventLoop.newTaskQueue(NioEventLoop.java:150)
-	at io.netty.channel.nio.NioEventLoop.<init>(NioEventLoop.java:138)
-	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:146)
-	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:37)
-	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:84)
-	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:58)
-	at io.netty.channel.MultithreadEventLoopGroup.<init>(MultithreadEventLoopGroup.java:52)
-	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:96)
-	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:91)
-	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:72)
-	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:52)
-	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:44)
-	at com.xxl.job.core.server.EmbedServer$1.run(EmbedServer.java:44)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-DEBUG Thread-3 io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
-DEBUG Thread-3 io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
-java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @5a075e38
-	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:376)
-	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:647)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:556)
-	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:335)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
-	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:326)
-	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:289)
-	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92)
-	at io.netty.channel.nio.NioEventLoop.newTaskQueue0(NioEventLoop.java:279)
-	at io.netty.channel.nio.NioEventLoop.newTaskQueue(NioEventLoop.java:150)
-	at io.netty.channel.nio.NioEventLoop.<init>(NioEventLoop.java:138)
-	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:146)
-	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:37)
-	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:84)
-	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:58)
-	at io.netty.channel.MultithreadEventLoopGroup.<init>(MultithreadEventLoopGroup.java:52)
-	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:96)
-	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:91)
-	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:72)
-	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:52)
-	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:44)
-	at com.xxl.job.core.server.EmbedServer$1.run(EmbedServer.java:44)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-DEBUG Thread-3 io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
-DEBUG Thread-3 io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
-DEBUG Thread-3 io.netty.util.internal.PlatformDependent - maxDirectMemory: 2057306112 bytes (maybe)
-DEBUG Thread-3 io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
-DEBUG Thread-3 io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
-DEBUG Thread-3 io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
-DEBUG Thread-3 io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
-DEBUG Thread-3 io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
-DEBUG Thread-3 io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
-DEBUG Thread-3 io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
-DEBUG Thread-3 io.netty.channel.DefaultChannelId - -Dio.netty.processId: 15060 (auto-detected)
-DEBUG Thread-3 io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
-DEBUG Thread-3 io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
-DEBUG Thread-3 io.netty.util.NetUtil - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
-DEBUG Thread-3 io.netty.util.NetUtil - /proc/sys/net/core/somaxconn: 4096
-DEBUG Thread-3 io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 14:ab:c5:ff:fe:05:26:84 (auto-detected)
-DEBUG Thread-3 io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
-DEBUG Thread-3 io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
-DEBUG Thread-3 io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
-DEBUG Thread-3 io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
-DEBUG Thread-3 io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
-DEBUG Thread-3 io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
-DEBUG Thread-3 io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
-DEBUG Thread-3 io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
-DEBUG Thread-3 io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
-DEBUG Thread-3 io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
-DEBUG Thread-3 io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-DEBUG Thread-3 io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
-DEBUG Thread-3 io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
-DEBUG Thread-3 io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
-DEBUG Thread-3 io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-DEBUG Thread-3 io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
-DEBUG Thread-3 io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
-DEBUG Thread-3 io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
-INFO Thread-3 com.xxl.job.core.server.EmbedServer - >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 9999
-DEBUG xxl-job, executor ExecutorRegistryThread com.xxl.job.core.thread.ExecutorRegistryThread - >>>>>>>>>>> xxl-job registry success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='xxl-job-executor-sample', registryValue='http://192.168.191.3:9999/'}, registryResult:ReturnT [code=200, msg=null, content=null]
-INFO main com.xxl.job.core.executor.XxlJobExecutor - >>>>>>>>>>> xxl-job register jobhandler success, name:demoJobHandler, jobHandler:com.moon.xxl.DemoJobHandler@59690aa4
-DEBUG Thread-3 io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
-DEBUG Thread-3 io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
-DEBUG Thread-3 io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-DEBUG Thread-3 io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-DEBUG Thread-3 io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
-DEBUG Thread-3 io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
-DEBUG Thread-3 io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
-DEBUG Thread-3 io.netty.util.internal.PlatformDependent0 - Java version: 14
-DEBUG Thread-3 io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
-DEBUG Thread-3 io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
-DEBUG Thread-3 io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
-DEBUG Thread-3 io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable
-java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
-	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31)
-	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:225)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
-	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:219)
-	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:289)
-	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92)
-	at io.netty.channel.nio.NioEventLoop.newTaskQueue0(NioEventLoop.java:279)
-	at io.netty.channel.nio.NioEventLoop.newTaskQueue(NioEventLoop.java:150)
-	at io.netty.channel.nio.NioEventLoop.<init>(NioEventLoop.java:138)
-	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:146)
-	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:37)
-	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:84)
-	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:58)
-	at io.netty.channel.MultithreadEventLoopGroup.<init>(MultithreadEventLoopGroup.java:52)
-	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:96)
-	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:91)
-	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:72)
-	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:52)
-	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:44)
-	at com.xxl.job.core.server.EmbedServer$1.run(EmbedServer.java:44)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-DEBUG Thread-3 io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
-DEBUG Thread-3 io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
-java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @5a075e38
-	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:376)
-	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:647)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:556)
-	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:335)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
-	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:326)
-	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:289)
-	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92)
-	at io.netty.channel.nio.NioEventLoop.newTaskQueue0(NioEventLoop.java:279)
-	at io.netty.channel.nio.NioEventLoop.newTaskQueue(NioEventLoop.java:150)
-	at io.netty.channel.nio.NioEventLoop.<init>(NioEventLoop.java:138)
-	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:146)
-	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:37)
-	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:84)
-	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:58)
-	at io.netty.channel.MultithreadEventLoopGroup.<init>(MultithreadEventLoopGroup.java:52)
-	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:96)
-	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:91)
-	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:72)
-	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:52)
-	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:44)
-	at com.xxl.job.core.server.EmbedServer$1.run(EmbedServer.java:44)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-DEBUG Thread-3 io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
-DEBUG Thread-3 io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
-DEBUG Thread-3 io.netty.util.internal.PlatformDependent - maxDirectMemory: 2057306112 bytes (maybe)
-DEBUG Thread-3 io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
-DEBUG Thread-3 io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
-DEBUG Thread-3 io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
-DEBUG Thread-3 io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
-DEBUG Thread-3 io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
-DEBUG Thread-3 io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
-DEBUG Thread-3 io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
-DEBUG Thread-3 io.netty.channel.DefaultChannelId - -Dio.netty.processId: 15128 (auto-detected)
+DEBUG Thread-3 io.netty.channel.DefaultChannelId - -Dio.netty.processId: 74716 (auto-detected)
 DEBUG Thread-3 io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
 DEBUG Thread-3 io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
 DEBUG Thread-3 io.netty.util.NetUtil - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
@@ -1114,94 +669,26 @@ DEBUG xxl-job, executor ExecutorRegistryThread com.xxl.job.core.thread.ExecutorR
 DEBUG xxl-job, executor ExecutorRegistryThread com.xxl.job.core.thread.ExecutorRegistryThread - >>>>>>>>>>> xxl-job registry success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='xxl-job-executor-sample', registryValue='http://192.168.191.3:9999/'}, registryResult:ReturnT [code=200, msg=null, content=null]
 DEBUG nioEventLoopGroup-3-1 io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
 DEBUG nioEventLoopGroup-3-1 io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
-DEBUG nioEventLoopGroup-3-1 io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7b3f1a9e
+DEBUG nioEventLoopGroup-3-1 io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@94fca3e
 DEBUG nioEventLoopGroup-3-1 io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
 DEBUG nioEventLoopGroup-3-1 io.netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
 DEBUG nioEventLoopGroup-3-1 io.netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
 DEBUG nioEventLoopGroup-3-1 io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
-INFO xxl-rpc, EmbedServer bizThreadPool-1891228643 com.xxl.job.core.executor.XxlJobExecutor - >>>>>>>>>>> xxl-job regist JobThread success, jobId:1, handler:com.moon.xxl.DemoJobHandler@59690aa4
-ERROR Thread-5 com.xxl.job.core.log.XxlJobFileAppender - No such file or directory
-java.io.IOException: No such file or directory
-	at java.base/java.io.UnixFileSystem.createFileExclusively(Native Method)
-	at java.base/java.io.File.createNewFile(File.java:1027)
-	at com.xxl.job.core.log.XxlJobFileAppender.appendLog(XxlJobFileAppender.java:104)
-	at com.xxl.job.core.log.XxlJobLogger.logDetail(XxlJobLogger.java:43)
-	at com.xxl.job.core.log.XxlJobLogger.log(XxlJobLogger.java:66)
-	at com.xxl.job.core.thread.JobThread.run(JobThread.java:124)
-ERROR Thread-5 com.xxl.job.core.log.XxlJobFileAppender - No such file or directory
-java.io.IOException: No such file or directory
-	at java.base/java.io.UnixFileSystem.createFileExclusively(Native Method)
-	at java.base/java.io.File.createNewFile(File.java:1027)
-	at com.xxl.job.core.log.XxlJobFileAppender.appendLog(XxlJobFileAppender.java:104)
-	at com.xxl.job.core.log.XxlJobLogger.logDetail(XxlJobLogger.java:43)
-	at com.xxl.job.core.log.XxlJobLogger.log(XxlJobLogger.java:66)
-	at com.moon.xxl.DemoJobHandler.execute(DemoJobHandler.java:23)
-	at com.xxl.job.core.thread.JobThread.run(JobThread.java:152)
-ERROR Thread-5 com.xxl.job.core.log.XxlJobFileAppender - No such file or directory
-java.io.IOException: No such file or directory
-	at java.base/java.io.UnixFileSystem.createFileExclusively(Native Method)
-	at java.base/java.io.File.createNewFile(File.java:1027)
-	at com.xxl.job.core.log.XxlJobFileAppender.appendLog(XxlJobFileAppender.java:104)
-	at com.xxl.job.core.log.XxlJobLogger.logDetail(XxlJobLogger.java:43)
-	at com.xxl.job.core.log.XxlJobLogger.log(XxlJobLogger.java:66)
-	at com.moon.xxl.DemoJobHandler.execute(DemoJobHandler.java:26)
-	at com.xxl.job.core.thread.JobThread.run(JobThread.java:152)
-ERROR Thread-5 com.xxl.job.core.log.XxlJobFileAppender - No such file or directory
-java.io.IOException: No such file or directory
-	at java.base/java.io.UnixFileSystem.createFileExclusively(Native Method)
-	at java.base/java.io.File.createNewFile(File.java:1027)
-	at com.xxl.job.core.log.XxlJobFileAppender.appendLog(XxlJobFileAppender.java:104)
-	at com.xxl.job.core.log.XxlJobLogger.logDetail(XxlJobLogger.java:43)
-	at com.xxl.job.core.log.XxlJobLogger.log(XxlJobLogger.java:66)
-	at com.moon.xxl.DemoJobHandler.execute(DemoJobHandler.java:26)
-	at com.xxl.job.core.thread.JobThread.run(JobThread.java:152)
+INFO xxl-rpc, EmbedServer bizThreadPool-647914790 com.xxl.job.core.executor.XxlJobExecutor - >>>>>>>>>>> xxl-job regist JobThread success, jobId:1, handler:com.moon.xxl.syncPasswdJobHandler@44e81672
+DEBUG Thread-5 org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG Thread-5 org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG Thread-5 org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG Thread-5 org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG Thread-5 org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG Thread-5 org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG Thread-5 org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 461827677.
+DEBUG Thread-5 org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b86ee5d]
+DEBUG Thread-5 com.moon.mybatis.sms.ipMapping - ==>  Preparing: select a.main_ip,a.backup_ip,b.text from (select (select server_addr from sms_soft_server b where a.main_server_id=b.sms_soft_server_id ) as main_ip, (select server_addr from sms_soft_server b where a.back_server_id=b.sms_soft_server_id ) as backup_ip, (select ownercode from sms_soft_server b where a.back_server_id=b.sms_soft_server_id ) as ownercode from sms_server_mapping a where a.main_server_id=?) a,sms_owner b where a.ownercode=b.code
+DEBUG Thread-5 com.moon.mybatis.sms.ipMapping - ==> Parameters: 1(Integer)
+DEBUG Thread-5 com.moon.mybatis.sms.ipMapping - <==      Total: 3
+DEBUG Thread-5 org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b86ee5d]
+DEBUG Thread-5 org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b86ee5d]
+DEBUG Thread-5 org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 461827677 to pool.
+DEBUG Thread-5 com.xxl.job.core.thread.TriggerCallbackThread - >>>>>>>>>>> xxl-job, push callback request, logId:19
 DEBUG xxl-job, executor ExecutorRegistryThread com.xxl.job.core.thread.ExecutorRegistryThread - >>>>>>>>>>> xxl-job registry success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='xxl-job-executor-sample', registryValue='http://192.168.191.3:9999/'}, registryResult:ReturnT [code=200, msg=null, content=null]
-ERROR Thread-5 com.xxl.job.core.log.XxlJobFileAppender - No such file or directory
-java.io.IOException: No such file or directory
-	at java.base/java.io.UnixFileSystem.createFileExclusively(Native Method)
-	at java.base/java.io.File.createNewFile(File.java:1027)
-	at com.xxl.job.core.log.XxlJobFileAppender.appendLog(XxlJobFileAppender.java:104)
-	at com.xxl.job.core.log.XxlJobLogger.logDetail(XxlJobLogger.java:43)
-	at com.xxl.job.core.log.XxlJobLogger.log(XxlJobLogger.java:66)
-	at com.moon.xxl.DemoJobHandler.execute(DemoJobHandler.java:26)
-	at com.xxl.job.core.thread.JobThread.run(JobThread.java:152)
-ERROR Thread-5 com.xxl.job.core.log.XxlJobFileAppender - No such file or directory
-java.io.IOException: No such file or directory
-	at java.base/java.io.UnixFileSystem.createFileExclusively(Native Method)
-	at java.base/java.io.File.createNewFile(File.java:1027)
-	at com.xxl.job.core.log.XxlJobFileAppender.appendLog(XxlJobFileAppender.java:104)
-	at com.xxl.job.core.log.XxlJobLogger.logDetail(XxlJobLogger.java:43)
-	at com.xxl.job.core.log.XxlJobLogger.log(XxlJobLogger.java:66)
-	at com.moon.xxl.DemoJobHandler.execute(DemoJobHandler.java:26)
-	at com.xxl.job.core.thread.JobThread.run(JobThread.java:152)
-ERROR Thread-5 com.xxl.job.core.log.XxlJobFileAppender - No such file or directory
-java.io.IOException: No such file or directory
-	at java.base/java.io.UnixFileSystem.createFileExclusively(Native Method)
-	at java.base/java.io.File.createNewFile(File.java:1027)
-	at com.xxl.job.core.log.XxlJobFileAppender.appendLog(XxlJobFileAppender.java:104)
-	at com.xxl.job.core.log.XxlJobLogger.logDetail(XxlJobLogger.java:43)
-	at com.xxl.job.core.log.XxlJobLogger.log(XxlJobLogger.java:66)
-	at com.moon.xxl.DemoJobHandler.execute(DemoJobHandler.java:26)
-	at com.xxl.job.core.thread.JobThread.run(JobThread.java:152)
-ERROR Thread-5 com.xxl.job.core.log.XxlJobFileAppender - No such file or directory
-java.io.IOException: No such file or directory
-	at java.base/java.io.UnixFileSystem.createFileExclusively(Native Method)
-	at java.base/java.io.File.createNewFile(File.java:1027)
-	at com.xxl.job.core.log.XxlJobFileAppender.appendLog(XxlJobFileAppender.java:104)
-	at com.xxl.job.core.log.XxlJobLogger.logDetail(XxlJobLogger.java:43)
-	at com.xxl.job.core.log.XxlJobLogger.log(XxlJobLogger.java:66)
-	at com.xxl.job.core.thread.JobThread.run(JobThread.java:164)
-DEBUG Thread-5 com.xxl.job.core.thread.TriggerCallbackThread - >>>>>>>>>>> xxl-job, push callback request, logId:7
-ERROR xxl-job, executor TriggerCallbackThread com.xxl.job.core.log.XxlJobFileAppender - No such file or directory
-java.io.IOException: No such file or directory
-	at java.base/java.io.UnixFileSystem.createFileExclusively(Native Method)
-	at java.base/java.io.File.createNewFile(File.java:1027)
-	at com.xxl.job.core.log.XxlJobFileAppender.appendLog(XxlJobFileAppender.java:104)
-	at com.xxl.job.core.log.XxlJobLogger.logDetail(XxlJobLogger.java:43)
-	at com.xxl.job.core.log.XxlJobLogger.log(XxlJobLogger.java:66)
-	at com.xxl.job.core.thread.TriggerCallbackThread.callbackLog(TriggerCallbackThread.java:191)
-	at com.xxl.job.core.thread.TriggerCallbackThread.doCallback(TriggerCallbackThread.java:169)
-	at com.xxl.job.core.thread.TriggerCallbackThread.access$200(TriggerCallbackThread.java:25)
-	at com.xxl.job.core.thread.TriggerCallbackThread$1.run(TriggerCallbackThread.java:75)
-	at java.base/java.lang.Thread.run(Thread.java:832)
 DEBUG xxl-job, executor ExecutorRegistryThread com.xxl.job.core.thread.ExecutorRegistryThread - >>>>>>>>>>> xxl-job registry success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='xxl-job-executor-sample', registryValue='http://192.168.191.3:9999/'}, registryResult:ReturnT [code=200, msg=null, content=null]

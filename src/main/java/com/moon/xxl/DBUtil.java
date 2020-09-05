@@ -1,47 +1,28 @@
 package com.moon.xxl;
 
+import org.apache.ibatis.io.Resources;
+import org.apache.ibatis.session.SqlSessionFactory;
+import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+
+import java.io.IOException;
+import java.io.InputStream;
 import java.sql.*;
 
 public class DBUtil {
-    private String url="jdbc:postgresql://127.0.0.1:5432/public";
-    private String user="postgres";
-    private String passwd="123456";
-    private Connection conn;
+    private static SqlSessionFactory sqlSessionFactory=null;
     static {
+        String resource="mybatis-config.xml";
+        InputStream is=null;
         try {
-            Class.forName("org.postgresql.Driver");
-        } catch (ClassNotFoundException e) {
+            is= Resources.getResourceAsStream(resource);
+            sqlSessionFactory=new SqlSessionFactoryBuilder().build(is);
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }
-    public Connection getConn(){
-        try {
-            conn= DriverManager.getConnection(url,user,passwd);
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
-        }
-        return conn;
+    public static SqlSessionFactory getSqlSessionFactory(){
+        return sqlSessionFactory;
     }
-    public ResultSet query(Connection conn,String sql){
-        PreparedStatement ps=null;
-        ResultSet rs=null;
-        try {
-            ps=conn.prepareStatement(sql);
-            rs=ps.executeQuery();
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
-        }
-        return rs;
-    }
-    public boolean update(Connection conn,String sql){
-        PreparedStatement ps=null;
-        boolean rs=false;
-        try {
-            ps=conn.prepareStatement(sql);
-            rs=ps.execute();
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
-        }
-        return rs;
+    private DBUtil(){
     }
 }

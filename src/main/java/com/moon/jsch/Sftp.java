@@ -1,6 +1,10 @@
+/*
 package com.moon.jsch;
 
-/* -*-mode:java; c-basic-offset:2; indent-tabs-mode:nil -*- */
+*/
+/* -*-mode:java; c-basic-offset:2; indent-tabs-mode:nil -*- *//*
+
+*/
 /**
  * This program will demonstrate the sftp protocol support.
  *   $ CLASSPATH=.:../build javac Sftp.java
@@ -11,7 +15,8 @@ package com.moon.jsch;
  * In current implementation, the destination path for 'get' and 'put'
  * commands must be a file, not a directory.
  *
- */
+ *//*
+
 import com.jcraft.jsch.*;
 import java.awt.*;
 import javax.swing.*;
@@ -434,6 +439,7 @@ public class Sftp{
         }
     }
 
+*/
 /*
   public static class MyProgressMonitor implements com.jcraft.jsch.ProgressMonitor{
     JProgressBar progressBar;
@@ -470,7 +476,8 @@ public class Sftp{
       frame.setVisible(false);
     }
   }
-*/
+*//*
+
 
     public static class MyProgressMonitor implements SftpProgressMonitor{
         ProgressMonitor monitor;
@@ -543,4 +550,4 @@ public class Sftp{
                     "compression level             Packet compression will be enabled\n"+
                     "version                       Show SFTP version\n"+
                     "?                             Synonym for help";
-}
+}*/

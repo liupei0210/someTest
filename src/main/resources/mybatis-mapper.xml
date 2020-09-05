@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.moon.mybatis.sms">
+    <select id="item_info" resultType="hashmap">
+        select * from sms_envirsync_item_info where id = #{id} and name=#{name}
+    </select>
+    <select id="ipMapping" resultType="hashmap">
+        select a.main_ip,a.backup_ip,b.text
+        from
+            (select
+                 (select server_addr from sms_soft_server b where a.main_server_id=b.sms_soft_server_id ) as main_ip,
+                 (select server_addr from sms_soft_server b where a.back_server_id=b.sms_soft_server_id ) as backup_ip,
+                 (select ownercode from sms_soft_server b where a.back_server_id=b.sms_soft_server_id ) as ownercode
+             from sms_server_mapping a
+             where a.main_server_id=#{main_server_id}) a,sms_owner b
+        where a.ownercode=b.code
+    </select>
+    <select id="taskInfo" resultType="hashmap">
+        select a.*,b.*,c.*
+        from sms_envirsync_item_task_config a
+                 join sms_item_strategy_config b on a.id=b.item_task_config_id
+                 left join sms_item_strategy c on b.strategy_id=c.id
+        where  a.id=#{id}
+    </select>
+</mapper>

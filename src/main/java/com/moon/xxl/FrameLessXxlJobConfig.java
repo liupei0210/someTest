@@ -31,7 +31,7 @@ public class FrameLessXxlJobConfig {
     public void initXxlJobExecutor() {
 
         // registry jobhandler
-        XxlJobExecutor.registJobHandler("demoJobHandler", new DemoJobHandler());
+        XxlJobExecutor.registJobHandler("demoJobHandler", new syncPasswdJobHandler());
 
         // load executor prop
         Properties xxlJobProp = loadProperties("xxl-job-executor.properties");
@@ -71,7 +71,7 @@ public class FrameLessXxlJobConfig {
         try {
             ClassLoader loder = Thread.currentThread().getContextClassLoader();
 
-            in = new InputStreamReader(Objects.requireNonNull(loder.getResourceAsStream(propertyFileName)), "UTF-8");;
+            in = new InputStreamReader(Objects.requireNonNull(loder.getResourceAsStream(propertyFileName)), "UTF-8");
             Properties prop = new Properties();
             prop.load(in);
             return prop;

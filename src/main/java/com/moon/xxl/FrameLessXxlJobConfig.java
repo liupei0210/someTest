@@ -31,7 +31,7 @@ public class FrameLessXxlJobConfig {
     public void initXxlJobExecutor() {
 
         // registry jobhandler
-        XxlJobExecutor.registJobHandler("demoJobHandler", new syncPasswdJobHandler());
+        XxlJobExecutor.registJobHandler("ubuntuJobHandler", new syncPasswdJobHandler());
 
         // load executor prop
         Properties xxlJobProp = loadProperties("xxl-job-executor.properties");

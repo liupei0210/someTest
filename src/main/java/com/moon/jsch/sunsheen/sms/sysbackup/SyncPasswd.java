@@ -73,13 +73,13 @@ public class SyncPasswd {
 
     //去主中心和备份中心拷贝group,passwd文件
     private boolean copyFile() {
-        SshUtils ssh = new SshUtils();
+       /* SshUtils ssh = new SshUtils();
         ssh.createSession(userPrimary);
         try {
-            if (!Files.exists(Paths.get("system_sync/passwd/")))
-                Files.createDirectories(Paths.get("system_sync/passwd/"));
+            if (!Files.exists(Paths.get("/root/test/")))
+                Files.createDirectories(Paths.get("/root/test/"));
             else
-                Files.walk(Paths.get("system_sync/passwd/")).filter(Files::isRegularFile).forEach(x -> {
+                Files.walk(Paths.get("/root/test/")).filter(Files::isRegularFile).forEach(x -> {
                     try {
                         Files.deleteIfExists(x);
                     } catch (IOException e) {
@@ -89,25 +89,26 @@ public class SyncPasswd {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        ssh.sftp("/etc/group", "system_sync/passwd/group_p", SshUtils.SFTP_GET);
-        ssh.sftp("/etc/passwd", "system_sync/passwd/passwd_p", SshUtils.SFTP_GET);
+        ssh.sftp("/etc/group", "/root/test/group_p", SshUtils.SFTP_GET);
+        ssh.sftp("/etc/passwd", "/root/test/passwd_p", SshUtils.SFTP_GET);
         ssh.closeSession();
         ssh.createSession(userBackup);
-        ssh.sftp("/etc/group", "system_sync/passwd/group_b", SshUtils.SFTP_GET);
-        ssh.sftp("/etc/passwd", "system_sync/passwd/passwd_b", SshUtils.SFTP_GET);
+        ssh.sftp("/etc/group", "/root/test/group_b", SshUtils.SFTP_GET);
+        ssh.sftp("/etc/passwd", "/root/test/passwd_b", SshUtils.SFTP_GET);
         ssh.closeSession();
         try {
-            return Files.walk(Paths.get("system_sync/passwd/")).filter(Files::isRegularFile).collect(Collectors.toSet()).size() == 4;
+            return Files.walk(Paths.get("/root/test/")).filter(Files::isRegularFile).collect(Collectors.toSet()).size() == 4;
         } catch (IOException e) {
             e.printStackTrace();
             return false;
-        }
+        }*/
+        return true;
     }
 
     //对文件内容进行排序
     private boolean sortFileContent() {
-        try {
-            Files.walk(Paths.get("system_sync/passwd/")).filter(Files::isRegularFile).collect(Collectors.toSet()).forEach(x -> {
+       /* try {
+            Files.walk(Paths.get("/root/test/")).filter(Files::isRegularFile).collect(Collectors.toSet()).forEach(x -> {
                 try {
                     List<String> list = Files.readAllLines(x);
                     Collections.sort(list);
@@ -119,18 +120,19 @@ public class SyncPasswd {
         } catch (IOException e) {
             e.printStackTrace();
             return false;
-        }
+        }*/
         return true;
     }
 
     //对比group文件并根据结果生成脚本命令
     private boolean diffAndParseGroup() {
         MyUserInfo myself = new MyUserInfo();
-        myself.setUser("liupei");
-        myself.setPassword("liupei0210");
+        myself.setHost("172.18.194.191");
+        myself.setUser("root");
+        myself.setPassword("admin");
         SshUtils ssh = new SshUtils();
         ssh.createSession(myself);
-        List<String> results = ssh.exec("diff /home/liupei/IdeaProjects/someTest/system_sync/passwd/group_b /home/liupei/IdeaProjects/someTest/system_sync/passwd/group_p");
+        List<String> results = ssh.exec("diff /root/test/group_b /root/test/group_p");
         ssh.closeSession();
 //        results.forEach(System.out::println);
         int exitStatus = Integer.parseInt(results.get(0));
@@ -289,11 +291,12 @@ public class SyncPasswd {
     //对比passwd文件并根据结果生成脚本命令
     private boolean diffAndParsePasswd() {
         MyUserInfo myself = new MyUserInfo();
-        myself.setUser("liupei");
-        myself.setPassword("liupei0210");
+        myself.setHost("172.18.194.191");
+        myself.setUser("root");
+        myself.setPassword("admin");
         SshUtils ssh = new SshUtils();
         ssh.createSession(myself);
-        List<String> results = ssh.exec("diff /home/liupei/IdeaProjects/someTest/system_sync/passwd/passwd_b /home/liupei/IdeaProjects/someTest/system_sync/passwd/passwd_p");
+        List<String> results = ssh.exec("diff /root/test/passwd_b /root/test/passwd_p");
         ssh.closeSession();
 //        results.forEach(System.out::println);
         int exitStatus = Integer.parseInt(results.get(0));
@@ -308,6 +311,7 @@ public class SyncPasswd {
             String front, rear, line;
             while (i < results.size()) {
                 line = results.get(i);
+                System.out.println("line:"+line);
                 switch (Objects.requireNonNull(which_acd(line))) {
                     case "add":
                         splitLine = line.split("a");
@@ -356,7 +360,7 @@ public class SyncPasswd {
                             frontList.add(results.get(i + 1).substring(2).split(":"));
                             int length = Integer.parseInt(rearSplit[1]) - Integer.parseInt(rearSplit[0]) + 1;
                             int ii = i + 3;
-                            for (; ii < i + length + 3; ii++) {
+                            for (; ii <i +3+ length ; ii++) {
                                 rearList.add(results.get(ii).substring(2).split(":"));
                             }
                             i = ii;

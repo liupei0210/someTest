@@ -1,587 +1,242 @@
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SshUtils - Create jsch session successfully. 172.18.194.117
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SshUtils - Create jsch channel exec successfully.
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SshUtils - Channel is opened.
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SshUtils - Session is closed. 172.18.194.117
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SshUtils - Create jsch session successfully. 172.18.194.117
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SshUtils - Create jsch channel exec successfully.
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SshUtils - Channel is opened.
-ERROR main com.moon.jsch.sunsheen.sms.sysbackup.SshUtils - Channel is not opened!
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SshUtils - Session is closed. 172.18.194.117
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SshUtils - Create jsch session successfully. 172.18.194.117
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SshUtils - Create jsch channel exec successfully.
-INFO main com.moon.jsch.sunsheen.sms.sysbackup.SshUtils - Channel is opened.
-ERROR main com.moon.jsch.sunsheen.sms.sysbackup.SshUtils - Channel is not opened!
-INFO main com.moon.jsch.TestSftp - Create jsch session successfully. 172.18.194.117
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Create jsch channel exec successfully.
-INFO main com.moon.jsch.TestSftp - Channel is opened.
-INFO main com.moon.jsch.TestSftp - Session is closed. 172.18.194.117
-INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initializing ...
-INFO main net.neoremind.sshxcute.core.SSHExec - Session initialized and associated with user credential admin
-INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initialized successfully
-INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec trying to connect root@172.18.194.117
 INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection established
-INFO main net.neoremind.sshxcute.core.SSHExec - Command is bash -v /root/test/sh01.sh
+INFO main net.neoremind.sshxcute.core.SSHExec - Command is diff /root/ftpusers1 /root/ftpusers
 INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel established succesfully
 INFO main net.neoremind.sshxcute.core.SSHExec - Start to run command
-INFO main net.neoremind.sshxcute.core.SSHExec - Hello world!
-
-INFO main net.neoremind.sshxcute.core.SSHExec - 123456
+INFO main net.neoremind.sshxcute.core.SSHExec - 1,2c1,2
+< 3
+< 4
+---
+> 1
+> 2
 
 INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel closed
 INFO main net.neoremind.sshxcute.core.SSHExec - Check if exec success or not ... 
-INFO main net.neoremind.sshxcute.core.SSHExec - Execute successfully for command: bash -v /root/test/sh01.sh
+INFO main net.neoremind.sshxcute.core.SSHExec - Execution failed while executing command: diff /root/ftpusers1 /root/ftpusers
+INFO main net.neoremind.sshxcute.core.SSHExec - Error message: 
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel disconnect
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initializing ...
+INFO main net.neoremind.sshxcute.core.SSHExec - Session initialized and associated with user credential admin
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initialized successfully
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec trying to connect root@172.18.194.191
+INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection established
+INFO main net.neoremind.sshxcute.core.SSHExec - Command is diff /root/ftpusers1 /root/ftpusers
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel established succesfully
+INFO main net.neoremind.sshxcute.core.SSHExec - Start to run command
+INFO main net.neoremind.sshxcute.core.SSHExec - 1,2c1,2
+< 3
+< 4
+---
+> 1
+> 2
+
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel closed
+INFO main net.neoremind.sshxcute.core.SSHExec - Check if exec success or not ... 
+INFO main net.neoremind.sshxcute.core.SSHExec - Execution failed while executing command: diff /root/ftpusers1 /root/ftpusers
+INFO main net.neoremind.sshxcute.core.SSHExec - Error message: 
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel disconnect
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initializing ...
+INFO main net.neoremind.sshxcute.core.SSHExec - Session initialized and associated with user credential admin
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initialized successfully
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec trying to connect root@172.18.194.191
+INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection established
+INFO main net.neoremind.sshxcute.core.SSHExec - Command is diff /root/ftpusers1 /root/ftpusers
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel established succesfully
+INFO main net.neoremind.sshxcute.core.SSHExec - Start to run command
+INFO main net.neoremind.sshxcute.core.SSHExec - 1,2c1,2
+< 3
+< 4
+---
+> 1
+> 2
+
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel closed
+INFO main net.neoremind.sshxcute.core.SSHExec - Check if exec success or not ... 
+INFO main net.neoremind.sshxcute.core.SSHExec - Execution failed while executing command: diff /root/ftpusers1 /root/ftpusers
+INFO main net.neoremind.sshxcute.core.SSHExec - Error message: 
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel disconnect
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initializing ...
+INFO main net.neoremind.sshxcute.core.SSHExec - Session initialized and associated with user credential admin
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initialized successfully
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec trying to connect root@172.18.194.191
+INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection established
+INFO main net.neoremind.sshxcute.core.SSHExec - Command is diff /root/ftpusers1 /root/ftpusers
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel established succesfully
+INFO main net.neoremind.sshxcute.core.SSHExec - Start to run command
+INFO main net.neoremind.sshxcute.core.SSHExec - 1,2c1,2
+< 3
+< 4
+---
+> 1
+> 2
+
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel closed
+INFO main net.neoremind.sshxcute.core.SSHExec - Check if exec success or not ... 
+INFO main net.neoremind.sshxcute.core.SSHExec - Execution failed while executing command: diff /root/ftpusers1 /root/ftpusers
+INFO main net.neoremind.sshxcute.core.SSHExec - Error message: 
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel disconnect
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initializing ...
+INFO main net.neoremind.sshxcute.core.SSHExec - Session initialized and associated with user credential admin
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initialized successfully
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec trying to connect root@172.18.194.191
+INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection established
+INFO main net.neoremind.sshxcute.core.SSHExec - Command is diff /root/ftpusers1 /root/ftpusers
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel established succesfully
+INFO main net.neoremind.sshxcute.core.SSHExec - Start to run command
+INFO main net.neoremind.sshxcute.core.SSHExec - 1,2c1,2
+< 3
+< 4
+---
+> 1
+> 2
+
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel closed
+INFO main net.neoremind.sshxcute.core.SSHExec - Check if exec success or not ... 
+INFO main net.neoremind.sshxcute.core.SSHExec - Execution failed while executing command: diff /root/ftpusers1 /root/ftpusers
+INFO main net.neoremind.sshxcute.core.SSHExec - Error message: 
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel disconnect
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initializing ...
+INFO main net.neoremind.sshxcute.core.SSHExec - Session initialized and associated with user credential admin
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initialized successfully
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec trying to connect root@172.18.194.191
+INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection established
+INFO main net.neoremind.sshxcute.core.SSHExec - Command is diff /root/ftpusers1 /root/ftpusers
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel established succesfully
+INFO main net.neoremind.sshxcute.core.SSHExec - Start to run command
+INFO main net.neoremind.sshxcute.core.SSHExec - 1,2c1,2
+< 3
+< 4
+---
+> 1
+> 2
+
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel closed
+INFO main net.neoremind.sshxcute.core.SSHExec - Check if exec success or not ... 
+INFO main net.neoremind.sshxcute.core.SSHExec - Execution failed while executing command: diff /root/ftpusers1 /root/ftpusers
+INFO main net.neoremind.sshxcute.core.SSHExec - Error message: 
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel disconnect
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initializing ...
+INFO main net.neoremind.sshxcute.core.SSHExec - Session initialized and associated with user credential admin
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initialized successfully
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec trying to connect root@172.18.194.191
+INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection established
+INFO main net.neoremind.sshxcute.core.SSHExec - Command is diff /root/ftpusers1 /root/ftpusers
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel established succesfully
+INFO main net.neoremind.sshxcute.core.SSHExec - Start to run command
+INFO main net.neoremind.sshxcute.core.SSHExec - 1,2c1,2
+< 3
+< 4
+---
+> 1
+> 2
+
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel closed
+INFO main net.neoremind.sshxcute.core.SSHExec - Check if exec success or not ... 
+INFO main net.neoremind.sshxcute.core.SSHExec - Execution failed while executing command: diff /root/ftpusers1 /root/ftpusers
+INFO main net.neoremind.sshxcute.core.SSHExec - Error message: 
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel disconnect
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initializing ...
+INFO main net.neoremind.sshxcute.core.SSHExec - Session initialized and associated with user credential admin
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initialized successfully
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec trying to connect root@172.18.194.191
+INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection established
+INFO main net.neoremind.sshxcute.core.SSHExec - Command is diff /root/ftpusers1 /root/ftpusers
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel established succesfully
+INFO main net.neoremind.sshxcute.core.SSHExec - Start to run command
+INFO main net.neoremind.sshxcute.core.SSHExec - 1,2c1,2
+< 3
+< 4
+---
+> 1
+> 2
+
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel closed
+INFO main net.neoremind.sshxcute.core.SSHExec - Check if exec success or not ... 
+INFO main net.neoremind.sshxcute.core.SSHExec - Execution failed while executing command: diff /root/ftpusers1 /root/ftpusers
+INFO main net.neoremind.sshxcute.core.SSHExec - Error message: 
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel disconnect
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initializing ...
+INFO main net.neoremind.sshxcute.core.SSHExec - Session initialized and associated with user credential admin
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initialized successfully
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec trying to connect root@172.18.194.191
+INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection established
+INFO main net.neoremind.sshxcute.core.SSHExec - Command is diff /root/ftpusers1 /root/ftpusers
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel established succesfully
+INFO main net.neoremind.sshxcute.core.SSHExec - Start to run command
+INFO main net.neoremind.sshxcute.core.SSHExec - 1,2c1,2
+< 3
+< 4
+---
+> 1
+> 2
+
+INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel closed
+INFO main net.neoremind.sshxcute.core.SSHExec - Check if exec success or not ... 
+INFO main net.neoremind.sshxcute.core.SSHExec - Execution failed while executing command: diff /root/ftpusers1 /root/ftpusers
+INFO main net.neoremind.sshxcute.core.SSHExec - Error message: 
 INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel disconnect
 INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection shutdown
 INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initializing ...
 INFO main net.neoremind.sshxcute.core.SSHExec - Session initialized and associated with user credential admin
 INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initialized successfully
-INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec trying to connect root@172.18.194.117
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec trying to connect root@172.18.194.191
 INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection established
-INFO main net.neoremind.sshxcute.core.SSHExec - Command is cat /etc/passwd
+INFO main net.neoremind.sshxcute.core.SSHExec - Command is diff /root/ftpusers1 /root/ftpusers
 INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel established succesfully
 INFO main net.neoremind.sshxcute.core.SSHExec - Start to run command
-INFO main net.neoremind.sshxcute.core.SSHExec - root:x:0:0:root:/root:/bin/bash
-bin:x:1:1:bin:/bin:/sbin/nologin
-daemon:x:2:2:daemon:/sbin:/sbin/nologin
-adm:x:3:4:adm:/var/adm:/sbin/nologin
-lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
-sync:x:5:0:sync:/sbin:/bin/sync
-shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
-halt:x:7:0:halt:/sbin:/sbin/halt
-mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
-operator:x:11:0:operator:/root:/sbin/nologin
-games:x:12:100:games:/usr/games:/sbin/nologin
-ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
-nobody:x:99:99:Nobody:/:/sbin/nologin
-avahi-autoipd:x:170:170:Avahi IPv4LL Stack:/var/lib/avahi-autoipd:/sbin/nologin
-systemd-bus-proxy:x:999:997:systemd Bus Proxy:/:/sbin/nologin
-systemd-network:x:998:996:systemd Network Management:/:/sbin/nologin
-dbus:x:81:81:System message bus:/:/sbin/nologin
-polkitd:x:997:995:User for polkitd:/:/sbin/nologin
-tss:x:59:59:Account used by the trousers package to sandbox the tcsd daemon:/dev/null:/sbin/nologin
-postfix:x:89:89::/var/spool/postfix:/sbin/nologin
-sshd:x:74:74:Privilege-separated SSH:/var/empty/ssh
-INFO main net.neoremind.sshxcute.core.SSHExec - d:/sbin/nologin
-sms:x:1000:1000::/home/sms:/bin/bash
-nsms:x:1001:1001::/home/nsms:/bin/bash
-saslauth:x:996:76:Saslauthd user:/run/saslauthd:/sbin/nologin
-test001:x:1003:1004:sdsf:/home/test001:/bin/bash
-mosquitto:x:996:992::/etc/mosquitto:/sbin/nologin
-test:x:1004:1005::/home/test:/bin/bash
+INFO main net.neoremind.sshxcute.core.SSHExec - 1,2c1
+< 3
+< 4
+---
+> 1
 
 INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel closed
 INFO main net.neoremind.sshxcute.core.SSHExec - Check if exec success or not ... 
-INFO main net.neoremind.sshxcute.core.SSHExec - Execute successfully for command: cat /etc/passwd
+INFO main net.neoremind.sshxcute.core.SSHExec - Execution failed while executing command: diff /root/ftpusers1 /root/ftpusers
+INFO main net.neoremind.sshxcute.core.SSHExec - Error message: 
 INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel disconnect
 INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection shutdown
 INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initializing ...
 INFO main net.neoremind.sshxcute.core.SSHExec - Session initialized and associated with user credential admin
 INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initialized successfully
-INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec trying to connect root@172.18.194.117
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec trying to connect root@172.18.194.191
 INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection established
-INFO main net.neoremind.sshxcute.core.SSHExec - Command is cat /etc/passwd
+INFO main net.neoremind.sshxcute.core.SSHExec - Command is diff /root/ftpusers1 /root/ftpusers
 INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel established succesfully
 INFO main net.neoremind.sshxcute.core.SSHExec - Start to run command
-INFO main net.neoremind.sshxcute.core.SSHExec - root:x:0:0:root:/root:/bin/bash
-bin:x:1:1:bin:/bin:/sbin/nologin
-daemon:x:2:2:daemon:/sbin:/sbin/nologin
-adm:x:3:4:adm:/var/adm:/sbin/nologin
-lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
-sync:x:5:0:sync:/sbin:/bin/sync
-shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
-halt:x:7:0:halt:/sbin:/sbin/halt
-mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
-operator:x:11:0:operator:/root:/sbin/nologin
-games:x:12:100:games:/usr/games:/sbin/nologin
-ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
-nobody:x:99:99:Nobody:/:/sbin/nologin
-avahi-autoipd:x:170:170:Avahi IPv4LL Stack:/var/lib/avahi-autoipd:/sbin/nologin
-systemd-bus-proxy:x:999:997:systemd Bus Proxy:/:/sbin/nologin
-systemd-network:x:998:996:systemd Network Management:/:/sbin/nologin
-dbus:x:81:81:System message bus:/:/sbin/nologin
-polkitd:x:997:995:User for polkitd:/:/sbin/nologin
-tss:x:59:59:Account used by the trousers package to sandbox the tcsd daemon:/dev/null:/sbin/nologin
-postfix:x:89:89::/var/spool/postfix:/sbin/nologin
-sshd:x:74:74:Privilege-separated SSH:/var/empty/ssh
-INFO main net.neoremind.sshxcute.core.SSHExec - d:/sbin/nologin
-sms:x:1000:1000::/home/sms:/bin/bash
-nsms:x:1001:1001::/home/nsms:/bin/bash
-saslauth:x:996:76:Saslauthd user:/run/saslauthd:/sbin/nologin
-test001:x:1003:1004:sdsf:/home/test001:/bin/bash
-mosquitto:x:996:992::/etc/mosquitto:/sbin/nologin
-test:x:1004:1005::/home/test:/bin/bash
+INFO main net.neoremind.sshxcute.core.SSHExec - 1,2c1,2
+< 3
+< 4
+---
+> 1
+> 2
+4,5c4
+< 5
+< 6
+---
+> 3
 
 INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel closed
 INFO main net.neoremind.sshxcute.core.SSHExec - Check if exec success or not ... 
-INFO main net.neoremind.sshxcute.core.SSHExec - Execute successfully for command: cat /etc/passwd
+INFO main net.neoremind.sshxcute.core.SSHExec - Execution failed while executing command: diff /root/ftpusers1 /root/ftpusers
+INFO main net.neoremind.sshxcute.core.SSHExec - Error message: 
 INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel disconnect
 INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection shutdown
 INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initializing ...
 INFO main net.neoremind.sshxcute.core.SSHExec - Session initialized and associated with user credential admin
 INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initialized successfully
-INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec trying to connect root@172.18.194.117
+INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec trying to connect root@172.18.194.191
 INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection established
-INFO main net.neoremind.sshxcute.core.SSHExec - Command is cat /etc/passwd
+INFO main net.neoremind.sshxcute.core.SSHExec - Command is diff /root/ftpusers1 /root/ftpusers
 INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel established succesfully
 INFO main net.neoremind.sshxcute.core.SSHExec - Start to run command
-INFO main net.neoremind.sshxcute.core.SSHExec - root:x:0:0:root:/root:/bin/bash
-bin:x:1:1:bin:/bin:/sbin/nologin
-daemon:x:2:2:daemon:/sbin:/sbin/nologin
-adm:x:3:4:adm:/var/adm:/sbin/nologin
-lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
-sync:x:5:0:sync:/sbin:/bin/sync
-shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
-halt:x:7:0:halt:/sbin:/sbin/halt
-mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
-operator:x:11:0:operator:/root:/sbin/nologin
-games:x:12:100:games:/usr/games:/sbin/nologin
-ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
-nobody:x:99:99:Nobody:/:/sbin/nologin
-avahi-autoipd:x:170:170:Avahi IPv4LL Stack:/var/lib/avahi-autoipd:/sbin/nologin
-systemd-bus-proxy:x:999:997:systemd Bus Proxy:/:/sbin/nologin
-systemd-network:x:998:996:systemd Network Management:/:/sbin/nologin
-dbus:x:81:81:System message bus:/:/sbin/nologin
-polkitd:x:997:995:User for polkitd:/:/sbin/nologin
-tss:x:59:59:Account used by the trousers package to sandbox the tcsd daemon:/dev/null:/sbin/nologin
-postfix:x:89:89::/var/spool/postfix:/sbin/nologin
-sshd:x:74:74:Privilege-separated SSH:/var/empty/ssh
-INFO main net.neoremind.sshxcute.core.SSHExec - d:/sbin/nologin
-sms:x:1000:1000::/home/sms:/bin/bash
-nsms:x:1001:1001::/home/nsms:/bin/bash
-saslauth:x:996:76:Saslauthd user:/run/saslauthd:/sbin/nologin
-test001:x:1003:1004:sdsf:/home/test001:/bin/bash
-mosquitto:x:996:992::/etc/mosquitto:/sbin/nologin
-test:x:1004:1005::/home/test:/bin/bash
+INFO main net.neoremind.sshxcute.core.SSHExec - 1c1
+< z
+---
+> a
 
 INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel closed
 INFO main net.neoremind.sshxcute.core.SSHExec - Check if exec success or not ... 
-INFO main net.neoremind.sshxcute.core.SSHExec - Execute successfully for command: cat /etc/passwd
-INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel disconnect
-INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection shutdown
-INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initializing ...
-INFO main net.neoremind.sshxcute.core.SSHExec - Session initialized and associated with user credential admin
-INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initialized successfully
-INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec trying to connect root@172.18.194.117
-INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection established
-INFO main net.neoremind.sshxcute.core.SSHExec - Command is cat /etc/passwd
-INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel established succesfully
-INFO main net.neoremind.sshxcute.core.SSHExec - Start to run command
-INFO main net.neoremind.sshxcute.core.SSHExec - root:x:0:0:root:/root:/bin/bash
-bin:x:1:1:bin:/bin:/sbin/nologin
-daemon:x:2:2:daemon:/sbin:/sbin/nologin
-adm:x:3:4:adm:/var/adm:/sbin/nologin
-lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
-sync:x:5:0:sync:/sbin:/bin/sync
-shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
-halt:x:7:0:halt:/sbin:/sbin/halt
-mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
-operator:x:11:0:operator:/root:/sbin/nologin
-games:x:12:100:games:/usr/games:/sbin/nologin
-ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
-nobody:x:99:99:Nobody:/:/sbin/nologin
-avahi-autoipd:x:170:170:Avahi IPv4LL Stack:/var/lib/avahi-autoipd:/sbin/nologin
-systemd-bus-proxy:x:999:997:systemd Bus Proxy:/:/sbin/nologin
-systemd-network:x:998:996:systemd Network Management:/:/sbin/nologin
-dbus:x:81:81:System message bus:/:/sbin/nologin
-polkitd:x:997:995:User for polkitd:/:/sbin/nologin
-tss:x:59:59:Account used by the trousers package to sandbox the tcsd daemon:/dev/null:/sbin/nologin
-postfix:x:89:89::/var/spool/postfix:/sbin/nologin
-sshd:x:74:74:Privilege-separated SSH:/var/empty/ssh
-INFO main net.neoremind.sshxcute.core.SSHExec - d:/sbin/nologin
-sms:x:1000:1000::/home/sms:/bin/bash
-nsms:x:1001:1001::/home/nsms:/bin/bash
-saslauth:x:996:76:Saslauthd user:/run/saslauthd:/sbin/nologin
-test001:x:1003:1004:sdsf:/home/test001:/bin/bash
-mosquitto:x:996:992::/etc/mosquitto:/sbin/nologin
-test:x:1004:1005::/home/test:/bin/bash
-
-INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel closed
-INFO main net.neoremind.sshxcute.core.SSHExec - Check if exec success or not ... 
-INFO main net.neoremind.sshxcute.core.SSHExec - Execute successfully for command: cat /etc/passwd
-INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel disconnect
-INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initializing ...
-INFO main net.neoremind.sshxcute.core.SSHExec - Session initialized and associated with user credential admin
-INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initialized successfully
-INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec trying to connect root@172.18.194.117
-INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection established
-INFO main net.neoremind.sshxcute.core.SSHExec - Command is cat /etc/passwd
-INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel established succesfully
-INFO main net.neoremind.sshxcute.core.SSHExec - Start to run command
-INFO main net.neoremind.sshxcute.core.SSHExec - root:x:0:0:root:/root:/bin/bash
-bin:x:1:1:bin:/bin:/sbin/nologin
-daemon:x:2:2:daemon:/sbin:/sbin/nologin
-adm:x:3:4:adm:/var/adm:/sbin/nologin
-lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
-sync:x:5:0:sync:/sbin:/bin/sync
-shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
-halt:x:7:0:halt:/sbin:/sbin/halt
-mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
-operator:x:11:0:operator:/root:/sbin/nologin
-games:x:12:100:games:/usr/games:/sbin/nologin
-ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
-nobody:x:99:99:Nobody:/:/sbin/nologin
-avahi-autoipd:x:170:170:Avahi IPv4LL Stack:/var/lib/avahi-autoipd:/sbin/nologin
-systemd-bus-proxy:x:999:997:systemd Bus Proxy:/:/sbin/nologin
-systemd-network:x:998:996:systemd Network Management:/:/sbin/nologin
-dbus:x:81:81:System message bus:/:/sbin/nologin
-polkitd:x:997:995:User for polkitd:/:/sbin/nologin
-tss:x:59:59:Account used by the trousers package to sandbox the tcsd daemon:/dev/null:/sbin/nologin
-postfix:x:89:89::/var/spool/postfix:/sbin/nologin
-sshd:x:74:74:Privilege-separated SSH:/var/empty/ssh
-INFO main net.neoremind.sshxcute.core.SSHExec - d:/sbin/nologin
-sms:x:1000:1000::/home/sms:/bin/bash
-nsms:x:1001:1001::/home/nsms:/bin/bash
-saslauth:x:996:76:Saslauthd user:/run/saslauthd:/sbin/nologin
-test001:x:1003:1004:sdsf:/home/test001:/bin/bash
-mosquitto:x:996:992::/etc/mosquitto:/sbin/nologin
-test:x:1004:1005::/home/test:/bin/bash
-
-INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel closed
-INFO main net.neoremind.sshxcute.core.SSHExec - Check if exec success or not ... 
-INFO main net.neoremind.sshxcute.core.SSHExec - Execute successfully for command: cat /etc/passwd
-INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel disconnect
-INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection shutdown
-INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initializing ...
-INFO main net.neoremind.sshxcute.core.SSHExec - Session initialized and associated with user credential admin
-INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initialized successfully
-INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec trying to connect root@172.18.194.117
-INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection established
-INFO main net.neoremind.sshxcute.core.SSHExec - Command is cat /etc/passwd
-INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel established succesfully
-INFO main net.neoremind.sshxcute.core.SSHExec - Start to run command
-INFO main net.neoremind.sshxcute.core.SSHExec - root:x:0:0:root:/root:/bin/bash
-bin:x:1:1:bin:/bin:/sbin/nologin
-daemon:x:2:2:daemon:/sbin:/sbin/nologin
-adm:x:3:4:adm:/var/adm:/sbin/nologin
-lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
-sync:x:5:0:sync:/sbin:/bin/sync
-shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
-halt:x:7:0:halt:/sbin:/sbin/halt
-mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
-operator:x:11:0:operator:/root:/sbin/nologin
-games:x:12:100:games:/usr/games:/sbin/nologin
-ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
-nobody:x:99:99:Nobody:/:/sbin/nologin
-avahi-autoipd:x:170:170:Avahi IPv4LL Stack:/var/lib/avahi-autoipd:/sbin/nologin
-systemd-bus-proxy:x:999:997:systemd Bus Proxy:/:/sbin/nologin
-systemd-network:x:998:996:systemd Network Management:/:/sbin/nologin
-dbus:x:81:81:System message bus:/:/sbin/nologin
-polkitd:x:997:995:User for polkitd:/:/sbin/nologin
-tss:x:59:59:Account used by the trousers package to sandbox the tcsd daemon:/dev/null:/sbin/nologin
-postfix:x:89:89::/var/spool/postfix:/sbin/nologin
-sshd:x:74:74:Privilege-separated SSH:/var/empty/ssh
-INFO main net.neoremind.sshxcute.core.SSHExec - d:/sbin/nologin
-sms:x:1000:1000::/home/sms:/bin/bash
-nsms:x:1001:1001::/home/nsms:/bin/bash
-saslauth:x:996:76:Saslauthd user:/run/saslauthd:/sbin/nologin
-test001:x:1003:1004:sdsf:/home/test001:/bin/bash
-mosquitto:x:996:992::/etc/mosquitto:/sbin/nologin
-test:x:1004:1005::/home/test:/bin/bash
-
-INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel closed
-INFO main net.neoremind.sshxcute.core.SSHExec - Check if exec success or not ... 
-INFO main net.neoremind.sshxcute.core.SSHExec - Execute successfully for command: cat /etc/passwd
-INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel disconnect
-INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection shutdown
-INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initializing ...
-INFO main net.neoremind.sshxcute.core.SSHExec - Session initialized and associated with user credential admin
-INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initialized successfully
-INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec trying to connect root@172.18.194.117
-INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection established
-INFO main net.neoremind.sshxcute.core.SSHExec - Command is cat /etc/passwd
-INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel established succesfully
-INFO main net.neoremind.sshxcute.core.SSHExec - Start to run command
-INFO main net.neoremind.sshxcute.core.SSHExec - root:x:0:0:root:/root:/bin/bash
-bin:x:1:1:bin:/bin:/sbin/nologin
-daemon:x:2:2:daemon:/sbin:/sbin/nologin
-adm:x:3:4:adm:/var/adm:/sbin/nologin
-lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
-sync:x:5:0:sync:/sbin:/bin/sync
-shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
-halt:x:7:0:halt:/sbin:/sbin/halt
-mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
-operator:x:11:0:operator:/root:/sbin/nologin
-games:x:12:100:games:/usr/games:/sbin/nologin
-ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
-nobody:x:99:99:Nobody:/:/sbin/nologin
-avahi-autoipd:x:170:170:Avahi IPv4LL Stack:/var/lib/avahi-autoipd:/sbin/nologin
-systemd-bus-proxy:x:999:997:systemd Bus Proxy:/:/sbin/nologin
-systemd-network:x:998:996:systemd Network Management:/:/sbin/nologin
-dbus:x:81:81:System message bus:/:/sbin/nologin
-polkitd:x:997:995:User for polkitd:/:/sbin/nologin
-tss:x:59:59:Account used by the trousers package to sandbox the tcsd daemon:/dev/null:/sbin/nologin
-postfix:x:89:89::/var/spool/postfix:/sbin/nologin
-sshd:x:74:74:Privilege-separated SSH:/var/empty/ssh
-INFO main net.neoremind.sshxcute.core.SSHExec - d:/sbin/nologin
-sms:x:1000:1000::/home/sms:/bin/bash
-nsms:x:1001:1001::/home/nsms:/bin/bash
-saslauth:x:996:76:Saslauthd user:/run/saslauthd:/sbin/nologin
-test001:x:1003:1004:sdsf:/home/test001:/bin/bash
-mosquitto:x:996:992::/etc/mosquitto:/sbin/nologin
-test:x:1004:1005::/home/test:/bin/bash
-
-INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel closed
-INFO main net.neoremind.sshxcute.core.SSHExec - Check if exec success or not ... 
-INFO main net.neoremind.sshxcute.core.SSHExec - Execute successfully for command: cat /etc/passwd
-INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel disconnect
-INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection shutdown
-INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initializing ...
-INFO main net.neoremind.sshxcute.core.SSHExec - Session initialized and associated with user credential admin
-INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initialized successfully
-INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec trying to connect root@172.18.194.117
-INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection established
-INFO main net.neoremind.sshxcute.core.SSHExec - Command is ls /
-INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel established succesfully
-INFO main net.neoremind.sshxcute.core.SSHExec - Start to run command
-INFO main net.neoremind.sshxcute.core.SSHExec - bin
-boot
-data
-dev
-etc
-home
-lib
-lib64
-media
-mnt
-opt
-proc
-root
-run
-sbin
-srv
-sys
-tmp
-usr
-var
-WEB-INF
-  
-
-INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel closed
-INFO main net.neoremind.sshxcute.core.SSHExec - Check if exec success or not ... 
-INFO main net.neoremind.sshxcute.core.SSHExec - Execute successfully for command: ls /
-INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel disconnect
-INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection shutdown
-INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initializing ...
-INFO main net.neoremind.sshxcute.core.SSHExec - Session initialized and associated with user credential admin
-INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initialized successfully
-INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec trying to connect root@172.18.194.117
-INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection established
-INFO main net.neoremind.sshxcute.core.SSHExec - Command is cat /etc/passwd
-INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel established succesfully
-INFO main net.neoremind.sshxcute.core.SSHExec - Start to run command
-INFO main net.neoremind.sshxcute.core.SSHExec - root:x:0:0:root:/root:/bin/bash
-bin:x:1:1:bin:/bin:/sbin/nologin
-daemon:x:2:2:daemon:/sbin:/sbin/nologin
-adm:x:3:4:adm:/var/adm:/sbin/nologin
-lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
-sync:x:5:0:sync:/sbin:/bin/sync
-shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
-halt:x:7:0:halt:/sbin:/sbin/halt
-mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
-operator:x:11:0:operator:/root:/sbin/nologin
-games:x:12:100:games:/usr/games:/sbin/nologin
-ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
-nobody:x:99:99:Nobody:/:/sbin/nologin
-avahi-autoipd:x:170:170:Avahi IPv4LL Stack:/var/lib/avahi-autoipd:/sbin/nologin
-systemd-bus-proxy:x:999:997:systemd Bus Proxy:/:/sbin/nologin
-systemd-network:x:998:996:systemd Network Management:/:/sbin/nologin
-dbus:x:81:81:System message bus:/:/sbin/nologin
-polkitd:x:997:995:User for polkitd:/:/sbin/nologin
-tss:x:59:59:Account used by the trousers package to sandbox the tcsd daemon:/dev/null:/sbin/nologin
-postfix:x:89:89::/var/spool/postfix:/sbin/nologin
-sshd:x:74:74:Privilege-separated SSH:/var/empty/ssh
-INFO main net.neoremind.sshxcute.core.SSHExec - d:/sbin/nologin
-sms:x:1000:1000::/home/sms:/bin/bash
-nsms:x:1001:1001::/home/nsms:/bin/bash
-saslauth:x:996:76:Saslauthd user:/run/saslauthd:/sbin/nologin
-test001:x:1003:1004:sdsf:/home/test001:/bin/bash
-mosquitto:x:996:992::/etc/mosquitto:/sbin/nologin
-test:x:1004:1005::/home/test:/bin/bash
-
-INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel closed
-INFO main net.neoremind.sshxcute.core.SSHExec - Check if exec success or not ... 
-INFO main net.neoremind.sshxcute.core.SSHExec - Execute successfully for command: cat /etc/passwd
-INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel disconnect
-INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection shutdown
-INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initializing ...
-INFO main net.neoremind.sshxcute.core.SSHExec - Session initialized and associated with user credential admin
-INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initialized successfully
-INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec trying to connect root@172.18.194.117
-INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection established
-INFO main net.neoremind.sshxcute.core.SSHExec - Command is cat /etc/passwd
-INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel established succesfully
-INFO main net.neoremind.sshxcute.core.SSHExec - Start to run command
-INFO main net.neoremind.sshxcute.core.SSHExec - root:x:0:0:root:/root:/bin/bash
-bin:x:1:1:bin:/bin:/sbin/nologin
-daemon:x:2:2:daemon:/sbin:/sbin/nologin
-adm:x:3:4:adm:/var/adm:/sbin/nologin
-lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
-sync:x:5:0:sync:/sbin:/bin/sync
-shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
-halt:x:7:0:halt:/sbin:/sbin/halt
-mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
-operator:x:11:0:operator:/root:/sbin/nologin
-games:x:12:100:games:/usr/games:/sbin/nologin
-ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
-nobody:x:99:99:Nobody:/:/sbin/nologin
-avahi-autoipd:x:170:170:Avahi IPv4LL Stack:/var/lib/avahi-autoipd:/sbin/nologin
-systemd-bus-proxy:x:999:997:systemd Bus Proxy:/:/sbin/nologin
-systemd-network:x:998:996:systemd Network Management:/:/sbin/nologin
-dbus:x:81:81:System message bus:/:/sbin/nologin
-polkitd:x:997:995:User for polkitd:/:/sbin/nologin
-tss:x:59:59:Account used by the trousers package to sandbox the tcsd daemon:/dev/null:/sbin/nologin
-postfix:x:89:89::/var/spool/postfix:/sbin/nologin
-sshd:x:74:74:Privilege-separated SSH:/var/empty/ssh
-INFO main net.neoremind.sshxcute.core.SSHExec - d:/sbin/nologin
-sms:x:1000:1000::/home/sms:/bin/bash
-nsms:x:1001:1001::/home/nsms:/bin/bash
-saslauth:x:996:76:Saslauthd user:/run/saslauthd:/sbin/nologin
-test001:x:1003:1004:sdsf:/home/test001:/bin/bash
-mosquitto:x:996:992::/etc/mosquitto:/sbin/nologin
-test:x:1004:1005::/home/test:/bin/bash
-
-INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel closed
-INFO main net.neoremind.sshxcute.core.SSHExec - Check if exec success or not ... 
-INFO main net.neoremind.sshxcute.core.SSHExec - Execute successfully for command: cat /etc/passwd
-INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel disconnect
-INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection shutdown
-INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initializing ...
-INFO main net.neoremind.sshxcute.core.SSHExec - Session initialized and associated with user credential admin
-INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initialized successfully
-INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec trying to connect root@172.18.194.117
-INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection established
-INFO main net.neoremind.sshxcute.core.SSHExec - Command is cat /etc/passwd
-INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel established succesfully
-INFO main net.neoremind.sshxcute.core.SSHExec - Start to run command
-INFO main net.neoremind.sshxcute.core.SSHExec - root:x:0:0:root:/root:/bin/bash
-bin:x:1:1:bin:/bin:/sbin/nologin
-daemon:x:2:2:daemon:/sbin:/sbin/nologin
-adm:x:3:4:adm:/var/adm:/sbin/nologin
-lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
-sync:x:5:0:sync:/sbin:/bin/sync
-shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
-halt:x:7:0:halt:/sbin:/sbin/halt
-mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
-operator:x:11:0:operator:/root:/sbin/nologin
-games:x:12:100:games:/usr/games:/sbin/nologin
-ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
-nobody:x:99:99:Nobody:/:/sbin/nologin
-avahi-autoipd:x:170:170:Avahi IPv4LL Stack:/var/lib/avahi-autoipd:/sbin/nologin
-systemd-bus-proxy:x:999:997:systemd Bus Proxy:/:/sbin/nologin
-systemd-network:x:998:996:systemd Network Management:/:/sbin/nologin
-dbus:x:81:81:System message bus:/:/sbin/nologin
-polkitd:x:997:995:User for polkitd:/:/sbin/nologin
-tss:x:59:59:Account used by the trousers package to sandbox the tcsd daemon:/dev/null:/sbin/nologin
-postfix:x:89:89::/var/spool/postfix:/sbin/nologin
-sshd:x:74:74:Privilege-separated SSH:/var/empty/ssh
-INFO main net.neoremind.sshxcute.core.SSHExec - d:/sbin/nologin
-sms:x:1000:1000::/home/sms:/bin/bash
-nsms:x:1001:1001::/home/nsms:/bin/bash
-saslauth:x:996:76:Saslauthd user:/run/saslauthd:/sbin/nologin
-test001:x:1003:1004:sdsf:/home/test001:/bin/bash
-mosquitto:x:996:992::/etc/mosquitto:/sbin/nologin
-test:x:1004:1005::/home/test:/bin/bash
-
-INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel closed
-INFO main net.neoremind.sshxcute.core.SSHExec - Check if exec success or not ... 
-INFO main net.neoremind.sshxcute.core.SSHExec - Execute successfully for command: cat /etc/passwd
-INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel disconnect
-INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection shutdown
-INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initializing ...
-INFO main net.neoremind.sshxcute.core.SSHExec - Session initialized and associated with user credential admin
-INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec initialized successfully
-INFO main net.neoremind.sshxcute.core.SSHExec - SSHExec trying to connect root@172.18.194.117
-INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection established
-INFO main net.neoremind.sshxcute.core.SSHExec - Command is cat /etc/group
-INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel established succesfully
-INFO main net.neoremind.sshxcute.core.SSHExec - Start to run command
-INFO main net.neoremind.sshxcute.core.SSHExec - root:x:0:
-bin:x:1:
-daemon:x:2:
-sys:x:3:
-adm:x:4:
-tty:x:5:
-disk:x:6:
-lp:x:7:
-mem:x:8:
-kmem:x:9:
-wheel:x:10:
-cdrom:x:11:
-mail:x:12:postfix
-man:x:15:
-dialout:x:18:
-floppy:x:19:
-games:x:20:
-tape:x:30:
-video:x:39:
-ftp:x:50:
-lock:x:54:
-audio:x:63:
-nobody:x:99:
-users:x:100:
-avahi-autoipd:x:170:
-utmp:x:22:
-utempter:x:35:
-ssh_keys:x:999:
-input:x:998:
-systemd-journal:x:190:
-systemd-bus-proxy:x:997:
-systemd-network:x:996:
-dbus:x:81:
-polkitd:x:995:
-dip:x:40:
-tss:x:59:
-postdrop:x:90:
-postfix:x:89:
-sshd:x:74:
-sms:x:1000:
-nsms:x:1001:
-saslauth:x:76:
-test1:x:1003:
-test001:x:1004:
-mosquitto:x:992:
-test:x:1005:
-
-INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel closed
-INFO main net.neoremind.sshxcute.core.SSHExec - Check if exec success or not ... 
-INFO main net.neoremind.sshxcute.core.SSHExec - Execute successfully for command: cat /etc/group
-INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel disconnect
-INFO main net.neoremind.sshxcute.core.SSHExec - Command is cat /etc/passwd
-INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel established succesfully
-INFO main net.neoremind.sshxcute.core.SSHExec - Start to run command
-INFO main net.neoremind.sshxcute.core.SSHExec - root:x:0:0:root:/root:/bin/bash
-bin:x:1:1:bin:/bin:/sbin/nologin
-daemon:x:2:2:daemon:/sbin:/sbin/nologin
-adm:x:3:4:adm:/var/adm:/sbin/nologin
-lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
-sync:x:5:0:sync:/sbin:/bin/sync
-shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
-halt:x:7:0:halt:/sbin:/sbin/halt
-mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
-operator:x:11:0:operator:/root:/sbin/nologin
-games:x:12:100:games:/usr/games:/sbin/nologin
-ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
-nobody:x:99:99:Nobody:/:/sbin/nologin
-avahi-autoipd:x:170:170:Avahi IPv4LL Stack:/var/lib/avahi-autoipd:/sbin/nologin
-systemd-bus-proxy:x:999:997:systemd Bus Proxy:/:/sbin/nologin
-systemd-network:x:998:996:systemd Network Management:/:/sbin/nologin
-dbus:x:81:81:System message bus:/:/sbin/nologin
-polkitd:x:997:995:User for polkitd:/:/sbin/nologin
-tss:x:59:59:Account used by the trousers package to sandbox the tcsd daemon:/dev/null:/sbin/nologin
-postfix:x:89:89::/var/spool/postfix:/sbin/nologin
-sshd:x:74:74:Privilege-separated SSH:/var/empty/ssh
-INFO main net.neoremind.sshxcute.core.SSHExec - d:/sbin/nologin
-sms:x:1000:1000::/home/sms:/bin/bash
-nsms:x:1001:1001::/home/nsms:/bin/bash
-saslauth:x:996:76:Saslauthd user:/run/saslauthd:/sbin/nologin
-test001:x:1003:1004:sdsf:/home/test001:/bin/bash
-mosquitto:x:996:992::/etc/mosquitto:/sbin/nologin
-test:x:1004:1005::/home/test:/bin/bash
-
-INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel closed
-INFO main net.neoremind.sshxcute.core.SSHExec - Check if exec success or not ... 
-INFO main net.neoremind.sshxcute.core.SSHExec - Execute successfully for command: cat /etc/passwd
+INFO main net.neoremind.sshxcute.core.SSHExec - Execution failed while executing command: diff /root/ftpusers1 /root/ftpusers
+INFO main net.neoremind.sshxcute.core.SSHExec - Error message: 
 INFO main net.neoremind.sshxcute.core.SSHExec - Connection channel disconnect
 INFO main net.neoremind.sshxcute.core.SSHExec - SSH connection shutdown

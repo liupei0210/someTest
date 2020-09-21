@@ -30,12 +30,14 @@ public class SyncFtp {
         SSHExec ssh=SSHExec.getInstance(cb);
         ssh.connect();
         CustomTask task_ftpusers=new ExecCommand("diff /root/ftpusers1 /root/ftpusers");
-        CustomTask task_user_list=new ExecCommand("diff /home/liupei/liupei/test/passwd1 /home/liupei/liupei/test/passwd");
+        CustomTask task_user_list=new ExecCommand("diff /root/user_list /root/user_list1");
         CustomTask task_conf=new ExecCommand("diff /home/liupei/liupei/test/passwd1 /home/liupei/liupei/test/passwd");
         Result rs=null;
         try {
             rs=ssh.exec(task_ftpusers);
             parseResults(rs,"ftpusers");
+            rs=ssh.exec(task_user_list);
+            parseResults(rs,"user_list");
             System.out.println(script);
         } catch (TaskExecFailException e) {
             e.printStackTrace();

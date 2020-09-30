@@ -7,7 +7,7 @@ import java.util.List;
 
 public class test {
     public static void main(String[] args){
-        ConnBean cb =new ConnBean();
-        new SyncFtp(cb,cb).start();
+        EnvSyncFolder esf=new EnvSyncFolder();
+        esf.collectMain();
     }
 }

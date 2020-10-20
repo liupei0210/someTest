@@ -9,7 +9,7 @@ import net.neoremind.sshxcute.task.impl.ExecCommand;
 import java.util.*;
 
 public class SyncAppsDiff {
-    private final StringBuffer script = new StringBuffer("#!/bin/bash\n");
+    public final StringBuffer script = new StringBuffer("#!/bin/bash\n");
     private boolean isChange = false;
     private String localPath;
 
@@ -51,7 +51,7 @@ public class SyncAppsDiff {
                 loop(ssh,path+"/"+x);
                 backFolders.remove(x);
             }else {
-                script.append("scp -r"+"172.18.194.117:"+path+"/"+x+" "+path+"/"+x+"\n");
+                script.append("scp -r "+"172.18.194.117:"+path+"/"+x+" "+path+"/"+x+"\n");
             }
         });
         backFolders.forEach(x->{

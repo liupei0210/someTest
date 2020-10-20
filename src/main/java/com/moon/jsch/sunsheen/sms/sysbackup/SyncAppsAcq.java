@@ -9,12 +9,11 @@ import net.neoremind.sshxcute.task.impl.ExecCommand;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class SyncAppsAcq {
     private String localPath;
+    public Map<String,String> binFiles=new HashMap<>();
     public SyncAppsAcq(String localPath){
         this.localPath=localPath;
     }
@@ -62,7 +61,25 @@ public class SyncAppsAcq {
         if (rs.isSuccess) {
             for (String results : rs.sysout.split("\n")) {
                 String[] fields = results.split(" ");
-                ret.add(fields[fields.length - 1]);
+                String fileName=fields[fields.length - 1];
+                if(type.equals("file")){
+                    task=new ExecCommand("file "+path+"/"+fileName+"|grep 'text'");
+                    try {
+                        Result r=ssh.exec(task);
+                        if(r.rc==0){
+                            ret.add(fileName);
+                        }else {
+                            task=new ExecCommand("md5sum "+path+"/"+fileName);
+                            String md5=ssh.exec(task).sysout;
+                            binFiles.put(path+"/"+fileName,md5);
+                        }
+
+                    } catch (TaskExecFailException e) {
+                        e.printStackTrace();
+                    }
+                }else {
+                    ret.add(fileName);
+                }
             }
         }
         return ret;

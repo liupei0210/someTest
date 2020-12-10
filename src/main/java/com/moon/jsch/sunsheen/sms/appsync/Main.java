@@ -16,7 +16,7 @@ public class Main {
         SSHExec ssh=SSHExec.getInstance(cb);
         if(ssh.connect()){
             try {
-                new Collect(ssh,"","").visit("/etc/");
+                new Collect(ssh,"","",cb).visit("/etc/");
             } catch (TaskExecFailException | InterruptedException e) {
                 e.printStackTrace();
             }

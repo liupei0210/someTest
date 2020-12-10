@@ -233,9 +233,10 @@ public class SSHExec {
             this.channel.connect(5000);
             logger.info("Connection channel established succesfully");
             logger.info("Start to run command");
-//            if(in.available()<=0||in==null){
-//            	System.out.println(command+"!!!!!!!!!!!!!!!!!!输入流为空！！！！！！！！！！！！！！");
-//            }
+            while(!this.channel.isClosed()){
+                TimeUnit.MILLISECONDS.sleep(100);
+                logger.info("Waiting for connection channel to close ... ");
+            }
             StringBuilder sb = new StringBuilder();
 //            byte[] tmp = new byte[1024];
 //            do {
@@ -260,10 +261,6 @@ public class SSHExec {
             System.out.println(sb.toString());
             logger.info("Connection channel closed");
             logger.info("Check if exec success or not ... ");
-            while(!this.channel.isClosed()){
-                TimeUnit.MILLISECONDS.sleep(100);
-                logger.info("Waiting for the channel to close ... ");
-            }
             r.rc = this.channel.getExitStatus();
             r.sysout = sb.toString();
             if (task.isSuccess(sb.toString(), this.channel.getExitStatus())) {

@@ -11,14 +11,11 @@ import com.jcraft.jsch.JSch;
 import com.jcraft.jsch.JSchException;
 import com.jcraft.jsch.Session;
 import com.jcraft.jsch.UserInfo;
-
-import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.lang.reflect.Field;
 import java.util.Iterator;
@@ -31,7 +28,6 @@ import java.util.concurrent.TimeUnit;
 import net.neoremind.sshxcute.exception.TaskExecFailException;
 import net.neoremind.sshxcute.exception.UploadFileNotSuccessException;
 import net.neoremind.sshxcute.task.CustomTask;
-
 import org.apache.log4j.Logger;
 
 public class SSHExec {
@@ -110,7 +106,7 @@ public class SSHExec {
             logger.info("SSHExec initialized successfully");
             logger.info("SSHExec trying to connect " + this.conn.getUser() + "@" + this.conn.getHost());
             synchronized(o) {
-                this.session.connect(10000);
+                this.session.connect(1000);
             }
 
             logger.info("SSH connection established");
@@ -153,7 +149,7 @@ public class SSHExec {
                 logger.info("SSHExec initialized successfully");
                 logger.info("SSHExec trying to connect " + conBean.getUser() + "@" + conBean.getHost());
                 synchronized(o) {
-                    this.session.connect(10000);
+                    this.session.connect(1000);
                 }
 
                 logger.info("SSH connection established");
@@ -183,7 +179,7 @@ public class SSHExec {
                     this.session.setConfig("StrictHostKeyChecking", "no");
                     this.session.setHostKeyAlias(connBean.getHost());
                     synchronized(o) {
-                        this.session.connect(10000);
+                        this.session.connect(1000);
                     }
 
                     logger.info("The session has been established to " + connBean.getUser() + "@" + connBean.getHost());
@@ -230,14 +226,12 @@ public class SSHExec {
             FileOutputStream fos = new FileOutputStream(SysConfigOption.ERROR_MSG_BUFFER_TEMP_FILE_PATH);
             ((ChannelExec)this.channel).setErrStream(fos);
             InputStream in = this.channel.getInputStream();
-            this.channel.connect(5000);
+            this.channel.connect();
             logger.info("Connection channel established succesfully");
             logger.info("Start to run command");
-//            if(in.available()<=0||in==null){
-//            	System.out.println(command+"!!!!!!!!!!!!!!!!!!输入流为空！！！！！！！！！！！！！！");
-//            }
             StringBuilder sb = new StringBuilder();
-//            byte[] tmp = new byte[1024];
+            byte[] tmp = new byte[1024];
+
 //            do {
 //                while(in.available() > 0) {
 //                    int i = in.read(tmp, 0, 1024);
@@ -250,18 +244,25 @@ public class SSHExec {
 //                    logger.info(str);
 //                }
 //            } while(!this.channel.isClosed());
-            String line="";
-            BufferedReader br=new BufferedReader(new InputStreamReader(in));
-            while((line=br.readLine())!=null){
-                sb.append(line).append("\n");
+
+            while(true){
+                while(in.available()>0){
+                    int i=in.read(tmp, 0, 1024);
+                    if(i<0)break;
+                    sb.append(new String(tmp, 0, i));
+                }
+                if(channel.isClosed()){
+                    if(in.available()>0) continue;
+//                    System.out.println("exit-status: "+channel.getExitStatus());
+                    break;
+                }
+                try{
+                    TimeUnit.MILLISECONDS.sleep(100);
+                }catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
             }
-            System.out.println(command);
-            System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-            System.out.println(sb.toString());
-            while(!this.channel.isClosed()){
-                TimeUnit.MILLISECONDS.sleep(100);
-                logger.info("Waiting for the channel to close ... ");
-            }
+
             logger.info("Connection channel closed");
             logger.info("Check if exec success or not ... ");
             r.rc = this.channel.getExitStatus();
@@ -287,8 +288,6 @@ public class SSHExec {
             logger.error(var10.getMessage());
         } catch (IOException var11) {
             logger.error(var11.getMessage());
-        } catch (InterruptedException e) {
-            e.printStackTrace();
         }
 
         return r;

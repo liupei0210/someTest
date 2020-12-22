@@ -26,7 +26,7 @@ public class EnvSyncFolder {
         catalogs.add("/root/test1");
         catalogs.add("/root/test2");
     }
-    private boolean getFolderInfo(String path, String type) {
+    private boolean getFolderInfo( String type) {
         SSHExec ssh = null;
         if (type.equals("main"))
             ssh = SSHExec.getInstance(cbMain);
@@ -34,6 +34,7 @@ public class EnvSyncFolder {
             ssh = SSHExec.getInstance(cbBack);
         if (ssh.connect()) {
             for (String catalog : catalogs) {
+                String path=catalog;
                 String[] arr = getPathAndFolder(path);
                 String directory = arr[0];
                 String folder = arr[1];
@@ -70,7 +71,7 @@ public class EnvSyncFolder {
     }
     private List<String> parseResults(Result results) {
         List<String> ret = new ArrayList<>();
-        if (results.isSuccess) {
+        if (results.isSuccess&&results.sysout!=""&&results.sysout!=null) {
             List<String> fields = new ArrayList<>(Arrays.asList(results.sysout
                     .split(" ")));
             for (int i = 0; i < fields.size(); i++) {
@@ -141,11 +142,9 @@ public class EnvSyncFolder {
 
 
     public boolean collectMain() {
-        for (String catalog : catalogs) {
-            if (!getFolderInfo(catalog, "main")) {
+            if (!getFolderInfo("main")) {
                 return false;
             }
-        }
         mainResults.forEach(x->{
             x.forEach(System.out::print);
             System.out.println();

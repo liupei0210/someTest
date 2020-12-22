@@ -1,6 +1,5 @@
 package com.moon.jsch.sunsheen.sms.sysbackup;
 
-import groovy.lang.Script;
 import net.neoremind.sshxcute.core.ConnBean;
 import net.neoremind.sshxcute.core.Result;
 import net.neoremind.sshxcute.core.SSHExec;

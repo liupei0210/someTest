@@ -257,7 +257,7 @@ public class SSHExec {
                     break;
                 }
                 try{
-                    TimeUnit.MILLISECONDS.sleep(100);
+                    TimeUnit.MILLISECONDS.sleep(1);
                 }catch (InterruptedException e) {
                     e.printStackTrace();
                 }

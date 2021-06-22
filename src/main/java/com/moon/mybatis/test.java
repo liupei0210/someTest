@@ -22,6 +22,7 @@ public class test {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        assert sqlSessionFactory != null;
         SqlSession session=sqlSessionFactory.openSession();
         Map<String,Object> map=new HashMap<>();
 //        map.put("id",0);

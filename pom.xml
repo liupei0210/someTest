@@ -74,6 +74,11 @@
             <artifactId>jedis</artifactId>
             <version>3.4.0</version>
         </dependency>
+        <dependency>
+            <groupId>com.github.javaparser</groupId>
+            <artifactId>javaparser-symbol-solver-core</artifactId>
+            <version>3.22.1</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>

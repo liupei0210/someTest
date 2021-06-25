@@ -5,9 +5,8 @@ import com.github.javaparser.ast.Modifier;
 import com.github.javaparser.ast.NodeList;
 import com.github.javaparser.ast.body.ClassOrInterfaceDeclaration;
 import com.github.javaparser.ast.body.MethodDeclaration;
-import com.github.javaparser.ast.expr.MethodCallExpr;
-import com.github.javaparser.ast.expr.NameExpr;
-import com.github.javaparser.ast.expr.SimpleName;
+import com.github.javaparser.ast.expr.*;
+import com.github.javaparser.ast.stmt.BlockStmt;
 import com.github.javaparser.ast.stmt.ExpressionStmt;
 import com.github.javaparser.ast.stmt.ReturnStmt;
 
@@ -34,7 +33,19 @@ public class Test3 {
                 new MethodCallExpr(new NameExpr("elements"), new SimpleName("add"),
                         NodeList.nodeList(new NameExpr("newElement")))
         ));
-
+        addElement.getBody().get().getStatements().add(new ExpressionStmt(
+                new MethodCallExpr( new MethodCallExpr(new NameExpr("elements"), new SimpleName("add"),
+                        NodeList.nodeList(new NameExpr("newElement"))),new SimpleName("add"))
+        ));
+        addElement.getBody().get().getStatements().add(new BlockStmt()
+                .addStatement(new ExpressionStmt(new AssignExpr(
+                        new FieldAccessExpr(new ThisExpr(), "title"),
+                        new NameExpr("title"),
+                        AssignExpr.Operator.ASSIGN)))
+                .addStatement(new ExpressionStmt(new AssignExpr(
+                        new FieldAccessExpr(new ThisExpr(), "author"),
+                        new NameExpr("author"),
+                        AssignExpr.Operator.ASSIGN))));
         // Method to get elements
         MethodDeclaration getElements = myClass.addMethod("getElements", Modifier.Keyword.PUBLIC);
         // we specify that we are returning a Collection of String

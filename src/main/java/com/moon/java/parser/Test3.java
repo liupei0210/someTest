@@ -46,12 +46,8 @@ public class Test3 {
                         new FieldAccessExpr(new ThisExpr(), "author"),
                         new NameExpr("author"),
                         AssignExpr.Operator.ASSIGN))));
-        // Method to get elements
         MethodDeclaration getElements = myClass.addMethod("getElements", Modifier.Keyword.PUBLIC);
-        // we specify that we are returning a Collection of String
         getElements.setType("Collection<String>");
-        // The body consists of just a return statement. We return the
-        // field
         getElements.getBody().get().getStatements().add(new ReturnStmt(
                 new NameExpr("elements")));
 

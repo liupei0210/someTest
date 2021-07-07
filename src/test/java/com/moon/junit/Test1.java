@@ -52,4 +52,9 @@ public class Test1 {
         System.out.println(people.get(0).toString());
         System.out.println(shadow.toString());
     }
+    @Test
+    public void test1(){
+        String s="int.a";
+        System.out.println(s.split("\\.").length);
+    }
 }

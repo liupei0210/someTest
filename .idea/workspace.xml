@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad8292df-1c73-4168-b5e7-a9fe223ae0fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/moon/java/parser/Test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/moon/junit/TestFileAnalyze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/moon/java/parser/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/moon/java/parser/Test3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/moon/java/parser/Test3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moon/java/parser/Test3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/moon/java/parser/Test4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/moon/java/parser/Test4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/moon/junit/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/moon/junit/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moon/java/parser/Test4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moon/java/parser/Test4.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,32 +52,6 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Application.Test4">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.moon.java.parser.Test" />
-      <module name="someTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.moon.java.parser.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.moon.java.parser.Test2" />
-      <module name="someTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.moon.java.parser.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.moon.java.parser.Test3" />
       <module name="someTest" />
@@ -113,7 +89,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="someTest" />
       <extension name="coverage">
         <pattern>
@@ -128,13 +104,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test1.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="someTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.moon.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.moon.junit" />
+      <option name="MAIN_CLASS_NAME" value="com.moon.junit.Test1" />
+      <option name="METHOD_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="someTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.moon.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.moon.junit" />
+      <option name="MAIN_CLASS_NAME" value="com.moon.junit.Test1" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Test4" />
+        <item itemvalue="JUnit.Test1" />
+        <item itemvalue="JUnit.Test1.test1" />
+        <item itemvalue="JUnit.Test1.Test" />
         <item itemvalue="Application.Test3" />
-        <item itemvalue="Application.Test2" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="JUnit.Test1 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +170,10 @@
       <workItem from="1624417673771" duration="324000" />
       <workItem from="1624419947212" duration="3419000" />
       <workItem from="1624434281030" duration="20789000" />
-      <workItem from="1624860783575" duration="13668000" />
+      <workItem from="1624860783575" duration="21337000" />
+      <workItem from="1625039841026" duration="4055000" />
+      <workItem from="1625125320456" duration="14000" />
+      <workItem from="1625132978986" duration="22755000" />
     </task>
     <servers />
   </component>
